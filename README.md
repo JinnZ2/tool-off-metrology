@@ -215,3 +215,14 @@ harness/
 
 Assumed by `thermo-pm` and `labor-thermodynamics`; neither has it. This is
 the sensing layer both were missing.
+
+---
+
+## 10. Specs in this repo
+
+```
+emotion-reading-spec.md   operator-side reading method: content × gain,
+                          impedance threshold, verb-not-noun test.
+                          carrier-clock case (§6 F3 profile), moved to record.
+```
+
