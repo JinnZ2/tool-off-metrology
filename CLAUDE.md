@@ -9,10 +9,21 @@ competence metrology: measuring skill and skill-loss with instruments the
 measured environment does not itself have. No build, no tests, no
 dependencies. The deliverable is prose that holds up under audit.
 
-`README.md` is the spine. Other root-level `*.md` files are specs that
-hang off it (e.g. `emotion-reading-spec.md`). §9 of the README sketches a
-`harness/` tree — it is a sketch, not existing code. Do not treat it as
-present, and do not scaffold it unless asked.
+```
+README.md                    front door: purpose, tag legend, doc map.
+                             orientation only — no argument lives here
+negative-space-metrology.md  the framework. the spine everything hangs off
+emotion-reading-spec.md      operator-side reading method
+plan.md                      research roadmap over the framework's Q1–Q7
+```
+
+New specs go at root as their own file and get a line in the README doc
+map. Keep the README thin: when the framework changes, the README changes
+only if the compressed thesis or the doc map is now wrong.
+
+§9 of the framework sketches a `harness/` tree — it is a sketch, not
+existing code. Do not treat it as present, and do not scaffold it unless
+asked.
 
 ## Claim lineage — required
 
@@ -51,7 +62,8 @@ not metaphor doing load-bearing work.
 
 ## The overclaim seam
 
-README §7 names the repo's own recurring failure mode: calibrated
+`negative-space-metrology.md` §7 names the repo's own recurring failure
+mode: calibrated
 reasoning underneath, inflated at the headline. "Convergence across
 domains" is defensible; "general law" is not. When editing or adding,
 strip that seam wherever it appears — including in text you just wrote.
