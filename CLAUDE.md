@@ -70,6 +70,13 @@ footing from dowsing. An entry that reads everything, everywhere, has
 not been specified. Its blind side is not a caveat to add at the end —
 it is half the entry.
 
+The blind side is not always an out-of-range. A detector fails by
+being off-scale; a store fails at the boundary of what it holds. B2 is
+the worked case — no out-of-range failure, because it is not a
+detector, and its edge is the uncoalesced layer instead. Find the
+entry's actual failure boundary rather than forcing every entry into
+the transducer shape.
+
 ## Carrier words before paraphrase
 
 When a claim is carried from an operator, record their words verbatim

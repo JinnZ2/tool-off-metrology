@@ -78,11 +78,12 @@ sensor-panel.md               the content side of that method — what each
                               entries and schema-derived candidates, kept in
                               separate columns
 
-unnamed-instruments.md        catalog of real, in-use human sensing
-                              instruments with no formal name. every entry
-                              declares its operating range and what it cannot
-                              read — that declaration is what separates it
-                              from dowsing
+unnamed-instruments.md        catalog of real, in-use human instruments
+                              with no formal name — transducers, and the
+                              storage formats that hold what they read.
+                              every entry declares where it works and what
+                              it is blind to. that declaration is what
+                              separates the catalog from dowsing
 
 plan.md                       research roadmap. what each open question needs,
                               what would falsify it, what is blocked on what,

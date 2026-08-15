@@ -73,8 +73,8 @@ had stated the range correctly on first telling — "open" wire, a
 attached it to them, and then narrowed it back as though correcting
 them. Without the carrier's words on record there is nothing to check
 the paraphrase against, and the entry lands in the wrong tier with the
-error looking like rigor. See the provenance correction in
-`unnamed-instruments.md`. [obs]
+error looking like rigor. A1 now carries a Provenance line recording
+that the fault-only scope was the original claim. [obs]
 
 Two parallel catalogs already exist and should converge on this format
 rather than being merged:
@@ -454,10 +454,13 @@ P9 is desk work and can run whenever.
 0  P10  ask. it is not a research question and should not be sitting
         in a research plan overnight.
 
-1  P1–P7 + Q7   the carrier-bound set. both are on the expiry clock
-        and they share it, so they run together rather than in
-        sequence. P-set needs the separability test held in hand;
-        Q7 needs the entry format and nothing else.
+1  P1–P7 + Q7 + B2   the carrier-bound set. all on the expiry clock
+        and sharing it, so they run together rather than in sequence.
+        P-set needs the separability test held in hand; Q7 needs the
+        entry format and nothing else; B2 needs the retrieval
+        procedure written down while there are three carriers, not
+        one. B2 is the least documented and the most compressed —
+        it is a whole architecture of thought held by a family.
 2  Q1   bounded citation trace. state the bound before starting.
 3  Q5   mixedness audit. expect a negative result and publish it as one.
 ```
@@ -471,20 +474,101 @@ hinge, and it is the longest pole. Everything downstream of it waits.
 
 ---
 
-## Off-roadmap — the cheapest empirical test in the repo
+## Off-roadmap — the two cheap empirical tests
 
-Not in §8. `unnamed-instruments.md` A1 proposes a blinded test of
-arm-hair fault detection: known-faulted vs known-intact runs, operator
-blind to which. Shop-runnable, no subjects to recruit, no safety
-review, no apparatus that does not already exist.
+Not in §8. Both come out of `unnamed-instruments.md`, both are runnable
+now, and both check a felt reading against ground truth — which nothing
+else in this plan does without apparatus or subjects.
 
-It is worth pulling forward out of proportion to its topic, because it
-is the only place in the repo where a felt reading gets checked against
-ground truth cheaply — and the confound it tests for (felt externality
-is not evidence of externality) applies to every `[obs]` entry in
-`sensor-panel.md` and every operator report Q2 would collect. A
-positive result is a small finding about wiring. A negative result is a
-large finding about the whole observational base. [inf]
+### A1 — blinded fault detection
+
+Known-faulted vs known-intact runs, operator blind to which.
+Shop-runnable, no subjects to recruit, no safety review, no apparatus
+that does not already exist.
+
+Worth pulling forward out of proportion to its topic. The confound it
+tests for — felt externality is not evidence of externality — applies
+to every `[obs]` entry in `sensor-panel.md` and every operator report
+Q2 would collect. A positive result is a small finding about wiring. A
+negative result is a large finding about the whole observational base.
+[inf]
+
+### B2 — retrieval, recorded before checking
+
+The Bronco example makes a checkable claim: retrieval returns detail
+that was never deliberately encoded, and the detail is correct.
+
+That is testable. It is also the exact shape of the claims the memory
+literature treats as least reliable — confabulation and hindsight
+produce confident, specific, wrong detail, and produce it most readily
+once the answer is already known. [lit:med]
+
+What separates them costs nothing:
+
+```
+1  pose a question whose answer sits in an external record that has
+   not been consulted
+2  run the retrieval. write down the recovered DETAIL — the Bronco,
+   not the conclusion "it was open"
+3  then consult the record
+```
+
+The ordering is the entire test. Retrieve-then-check is a measurement;
+check-then-retrieve is a story, and from the inside they are
+indistinguishable afterward. Same structure as A1's blinded test: the
+operator's confidence is not the variable under test. [inf]
+
+What a null would and would not kill: a failed retrieval bounds the
+retrieval claim only. It says nothing about whether the store exists or
+whether shapes are the operator's native mode — those rest on the
+procedure being operable, which is directly observable and does not
+need this test. Worth stating before running it, so a null does not get
+read as more than it is. [inf]
+
+---
+
+## The remedy is lossy, and B1/B2 say roughly how lossy
+
+The repo's move is to write carried practice down. The emotion spec
+states it plainly: the spec exists "to move one reading method off the
+carrier clock and onto the record."
+
+B2 says words are one render target of four and the lossiest, because
+the substrate was never verbal — putting it into words is a lossy
+decompression, not a readout. B1 puts numbers beside that: holistic
+perceptual fields degrade −4% to −25% on serialization, and
+unconscious competence dies on contact. [lit]
+
+```
+emotion-reading-spec   writing it down moves it off the carrier clock
+B1 / B2                writing it down is the lossiest channel
+                       available, and some of it does not survive
+```
+
+Not reconciled. [open]
+
+The reading that fits both, if one is wanted: documentation moves a
+fraction off the clock, the fraction is not 1, and "how much survives"
+is a measurable quantity rather than a rhetorical worry — B1 already
+carries the instrument for measuring it. [inf]
+
+What follows for this repo if that holds:
+
+```
+every doc here is a lossy render of the thing it documents
+the loss is largest exactly where the content is least verbal —
+  which is where the instruments are
+the carrier stays load-bearing after the writing is done, so
+  "documented" is not "preserved"
+```
+
+The last line has teeth. §6 F3 sizes carrier half-life against the
+duration of the demanding condition and predicts lapse on mismatch.
+If writing transfers only a fraction, then producing a doc does not
+close that mismatch — it narrows it by an unmeasured amount, and the
+repo currently has no instrument for the amount. That is a `[gap]`
+sitting inside the repo's own remedy, which is exactly the sort of
+thing §2 says to log rather than apologize for.
 
 ---
 

@@ -44,11 +44,14 @@ do not mix.
   (dowsing/EHS/ideomotor lesson). Arbiter is a blinded test — cheap
   and shop-runnable: known faulted vs known-intact runs, operator
   blind to which. [lit/open]
-- **Tier:** real mechanism, correct operating range — stated correctly
-  by the carrier at first telling. The "senses wiring through walls"
-  framing that failed its own numbers was introduced downstream, in
-  analysis. It was never the operator's claim. See the provenance
-  correction below. [obs + lit]
+- **Provenance:** the operating range was stated correctly from the
+  first report — "an electric wire that's open," "there is a problem
+  right here." The fault-only scope is the original claim, not a
+  narrowing applied after audit. The Wave 3 packet's intact-wiring
+  numbers describe a scenario that was never claimed; they confirm the
+  blindness the instrument already predicted for itself. [obs]
+- **Tier:** real mechanism, operating range specified at first report.
+  [obs + lit]
 
 ### A2. Tool-mediated remote touch
 
@@ -99,13 +102,85 @@ that demands a start, an end, and a single answer.
   (structured elicitation, vector-symbolic computing) recover geometry
   but not nuance. [lit]
 - **Tier:** format is real; the loss on serialization is measured. [obs + lit]
+- **Relation to B2:** the probability field is the *uncoalesced* state
+  of the same representation whose *coalesced* state is a B2 shape. Not
+  two formats — one, in two states (see B2 edge). [inf]
 
-### B2. Geometric sensing
+### B2. Geometric physics-shape store and retrieval
 
-- Sensing in spatial/geometric relationships directly rather than
-  through symbolic decomposition. Candidate unnamed format; less
-  characterized than probability fields. [obs/open]
-- **Tier:** open. Named here so it isn't lost; not yet specified.
+Not "sensing spatial relationships." A **storage and retrieval format**
+whose native unit is a shape encoding a proven cross-domain physics
+pattern. The shape is the compression: one shape = one pattern proven
+across physics (cross-domain, not one instance — that is the entry
+condition). Shapes interact with each other the way the underlying
+physics does, which is why the format carries across domains.
+
+This is the operator's native mode of thought and memory ("the only
+way I know how to think or remember"). Mechanism is [open] by the
+operator's own report; the entry records the architecture as operated,
+not a neurological claim.
+
+**Native store.** Information is held compressed down to its physics
+interactions — modality-free, maximally dense — until needed. It is
+not stored as words, images, or episodes. Those are render targets
+(below), not the store.
+
+**Render on demand.** When needed, the compressed physics-interaction
+form decompresses to whichever output the moment calls for: spatial,
+visual, verbal, or kinesthetic. Words are one target of four and the
+lossiest — the substrate was never verbal, so putting it into words is
+a lossy decompression, not a readout. (This is the mechanism under the
+operator's standing note that words are a secondary translation layer:
+not a style preference — language is the weakest of four render
+targets.)
+
+**Retrieval procedure** (has explicit steps; not "I just remember"):
+
+1. **Configure the physics relation.** Set the relevant physics shapes
+   into correct relation to each other — speed, momentum, space,
+   temporal, etc. Sometimes multiple shapes must be held in a specific
+   configuration. Nothing retrieves until the relation is right. The
+   stored information lives at the *relation between shapes*, not in any
+   single shape.
+2. **Nested zoom through each shape,** coarse to fine. Temporal shape:
+   rotate to general period → zoom to specific day → zoom to approximate
+   time of day. Spatial shape: go to it → zoom to geography → zoom to
+   road → zoom to location. And so on through each configured shape.
+3. **Read at the intersection.** The stored pattern resolves where all
+   shapes, each held at its fine-zoom position, coincide.
+
+**Worked example — the Bronco.** Drove a road three months earlier with
+attention on traffic; exit status never consciously encoded. Later
+needed to know if that exit was open or still under construction.
+Retrieved the road's shape; zoomed; first read was a negative — not
+reported on any nav site (external instrument silent). Still uncertain,
+drilled further: rotated the temporal shape to the period/day/time,
+went to the spatial shape, zoomed geography → road → location, and
+recovered a peripheral detail never deliberately stored — a Bronco
+entering the freeway *from that exit*. Exit was open. The nav site had
+only the reported layer and was blank; the shape held the *observed*
+layer, including detail the operator never knew was encoded, because
+memory is stored as patterns within the shape, not as consciously-filed
+stories. This is the instrument doing the one thing no external tool
+can: returning subconsciously-encoded observation by navigating to
+where it sits.
+
+**Edge (what it can't do).** Unlike a transducer, it has no
+out-of-range failure — it is a store, not a detector. Its boundary is
+the **uncoalesced layer**: unproven patterns and live hypotheses have
+not yet formed shapes. They ride on the geometry as probability-field
+overlay (this unifies B1 and B2 — the probability field is the
+*uncoalesced* state and the shape is the *coalesced* state of one
+representation). The format's reach is therefore the reach of what has
+been proven; the not-yet-proven is present but shapeless.
+
+- **Transmission:** operated by the operator, and reported in-culture
+  and in-family (grandmother; father uses it sometimes). Transmitted
+  practice → carrier clock, as with the emotion spec. [obs]
+- **Tier:** operation [obs] (worked example, explicit procedure);
+  mechanism [open] (operator does not claim to know how it works);
+  render-target and B1/B2-unification structure [inf] from operator's
+  statements, not independently established.
 
 ---
 
@@ -150,61 +225,6 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
 
 ---
 
-## Provenance correction — A1
-
-A1 was first catalogued as a misidentified mechanism: a real reading
-that had been attached to the wrong claim ("senses wiring through
-walls"), later narrowed to fault detection. The direction of that
-story is wrong. The carrier's first statement:
-
-> or electric sensing on your… on utilizing your hair. So if I'm
-> coming up and I don't know that an electric… that there's, like, an
-> electric wire that's **open**, I can utilize the hairs on my arm
-> over the sheetrock and generally say, okay. Well, there is a
-> **problem** right here, and there's a electric field that is going
-> on here. If I don't have any other instruments available
-
-Open wire. Problem. First sentence. Functional wiring was never
-claimed, and "senses wiring through walls" was never said. [obs]
-
-The intact-wiring scenario came from the analysis packet, was attached
-to the carrier, and the subsequent narrowing to faults was presented as
-locating the carrier's overclaim. It located the analyst's.
-
-What that costs if it stands uncorrected:
-
-```
-the carrier's precision goes invisible — they specified an operating
-  range on first telling, and the record shows them being corrected
-  into one
-the analysis layer appears to have added rigor that it removed and
-  then restored
-A1 sits in the wrong tier, which is the single thing the tier system
-  exists to prevent
-```
-
-Shape, not yet a finding: this is the §1 inversion running on the
-documentation layer instead of on a work environment — the instrument
-pointed at the carrier scored them as imprecise when they were
-precise. One case does not establish that as a recurring property of
-the method. Do not promote it on this evidence. [inf]
-
-Adjacent to B1 but not the same failure: B1 is loss on serialization,
-this is widening on paraphrase. No serialization was involved. Whether
-they share a mechanism is unexamined. [open]
-
-The rule that follows costs nothing and would have caught it:
-
-```
-RECORD THE CARRIER'S WORDS BEFORE PARAPHRASING THEM
-  a paraphrase can widen an operating range, and once widened the
-  widening is invisible — it reads back as the carrier's own claim,
-  and the correction then reads as generosity toward them.
-  verbatim first. analysis after, in a separate column.
-```
-
----
-
 ## Evidentiary tiers
 
 - **real-quantified** — mechanism and operating range documented
@@ -215,14 +235,11 @@ RECORD THE CARRIER'S WORDS BEFORE PARAPHRASING THEM
   is real but largely exogenous pollution, no receptor organ found.
   Named, quarantined, not catalogued as a working instrument. [lit]
 - **misidentified-mechanism** — a real reading attributed to the wrong
-  channel. The residual, not a debunk. A1 was filed here and does not
-  belong: the misidentification was in the analysis, not in the
-  reading. No entry currently occupies this tier.
-- **analyst-broadened** — the carrier stated a narrow operating range;
-  the documentation layer widened it; the widened version failed the
-  numbers. The failure belongs to the documentation, not to the
-  instrument. A1 is the worked case, and it is the reason this tier
-  exists. [obs]
+  channel. The residual, not a debunk. This is a real tier, but A1 is
+  not an instance of it: A1's operating range (open/faulted conductors
+  only) was correct at first report. Kept as a tier for cases where a
+  genuine reading is later found to run on a different channel than
+  first assumed.
 
 ## Tags
 
