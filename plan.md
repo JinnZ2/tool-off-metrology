@@ -98,6 +98,15 @@ Seed entries already written elsewhere: the reading method in
 external record, no instrument that prices its absence in advance), and
 A2 above.
 
+One candidate that is not a skill and may not fit the format: shame is
+carrier-stated to be compound and either internally generated or
+externally applied. If a channel can be written to from outside, there
+is no instrument that separates a carried reading from an applied one
+— a gap of a different kind than "no instrument detects the loss."
+Both are absences of a discriminating instrument, which is the log's
+actual subject, so it probably belongs. Format may need a field for
+it. See `sensor-panel.md`. [open]
+
 Why first: it is the only output on this list that is complete at every
 moment — ten entries is a finding, forty is a better one, and there is
 no half-finished state. It also forces the frame to be concrete. You

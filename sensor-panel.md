@@ -30,6 +30,12 @@ Gain is not in this table. Gain is per-event and orthogonal to content
 — any channel here can run clean or run loud, and the panel says
 nothing about which. See the spec's impedance threshold.
 
+Nor is every signal one channel. Compound readings arrive as several
+readings at once; shame is the carrier-named case. They have their own
+section below and do not get table entries, because a table entry
+asserts a single referent and that is the thing a compound does not
+have.
+
 ---
 
 ## Carried entries
@@ -66,14 +72,17 @@ collapses to   "I'm careless"
 
 ### fear
 ```
-reads          threat proximity ranking                          [panel]
-referent       the threat, and its distance in time-to-contact
+reads          threat proximity ranking, computed on a temporal
+               model — the ranking is in time-to-contact          [panel]
+referent       the threat, and when it arrives
 does not read  whether the threat is survivable, or worth the cost of
                avoiding. ranking is not decision
-correction     act on the ranking — increase distance, or close it
-               deliberately
+correction     act on the ranking — buy time, or spend it deliberately
 collapses to   "I'm a coward"
 ```
+
+Carrier, confirming the temporal component: "fear definately hss
+temporal model aspects". [obs]
 
 ### anger
 ```
@@ -183,34 +192,72 @@ corrections. Confusing them is expensive in both directions. [inf]
 
 ---
 
-## Hard cases                                                     [open]
+## Compound readings
 
-### shame, guilt
+Every channel in the tables above resolves to one reading. Not every
+signal does.
 
-The schema does not cleanly take these, and forcing it would be the
-failure mode the spec is built to prevent.
+Carrier, on shame:
 
-The spec's test says a reading that resolves to a claim about who the
-operator is was narrated, not read. Shame resolves to exactly that by
-construction. Two readings of this, unresolved:
+> shame is a compound reading... whether internal or externally
+> applied...
+
+That kills the binary this file previously logged — either shame is
+not a channel at all, or shame is a single channel about group
+standing. Neither. It is real, and it is more than one reading
+arriving together. [obs]
+
+### what follows
+
+The verb-not-noun test does not fail on shame after all. This file
+claimed it did: that a reading resolving to a claim about who the
+operator is was narrated by construction, and shame does that
+inherently.
+
+That was wrong in exactly the way the spec's own worked example says
+it is wrong. An undecomposed compound *looks* like a character claim.
+"Frustrated because I'm careless" is surprise and frustration
+collapsed into one, and the collapse is what produces the character
+claim — separating the readings dissolves it. Shame is that collapse
+at larger scale. The schema was not broken; the decomposition was
+missing. [inf]
+
+### what is not written here
+
+The components. The carrier named the compound, not its parts, and
+guessing the parts is precisely how the A1 error happened.
+
+On record: it is compound, and an internal / externally-applied
+distinction lives somewhere in it. [obs]
 
 ```
-1  shame is not a channel. it is the narrative overlay itself, firing
-   as though it were a reading. under this reading the panel has no
-   shame entry and should not get one.
-
-2  shame is a real channel — standing-in-the-group, or predicted
-   exclusion — whose content reading is about the group's state and
-   not the operator's character, and the character claim is the
-   overlay painted on top, same as everywhere else.
+UNRESOLVED
+  what the internal/external distinction is ON — an axis of the
+    compound itself, or a separate question about where the compound
+    originated? the phrasing carries both.                    [open]
+  whether it is the same axis as the spec's inward/outward clearing
+    split. that split is about how to clear impedance, not about
+    where a reading came from. different questions, possibly
+    related, not assumed identical.                           [open]
+  the components themselves.                                  [open]
+  guilt — untouched. this file previously floated it as a boundary
+    reading with the operator on the crossing side. that was tidy
+    and nothing has confirmed it.                             [open]
 ```
 
-Reading 2 would give guilt a separate channel: a boundary reading like
-anger, but with the operator on the crossing side. That is suspiciously
-tidy, which is a reason to distrust it.
+### one implication, flagged and not built on
 
-Not resolved here. Left [open] rather than smoothed, and no entry
-written for either until the practice says which.
+A reading that can be *externally applied* is a channel that something
+outside the operator can write to.
+
+That is a different failure from the degradation vectors in
+`unnamed-instruments.md`. HAVS destroys A2; it does not forge readings
+on it. An injection surface on an internal-state channel has no entry
+in that catalog, and there is no instrument that separates a carried
+reading from an applied one. [inf]
+
+If that holds, it is gap-log material rather than a panel entry — the
+panel says what a channel reads, not who wrote to it. [open]
 
 ---
 
@@ -234,28 +281,50 @@ gap         there are positive-side channels — satisfaction as
 
 [open]. Worth deciding, because the two imply different panels.
 
-### fear and prediction-horizon are the same computation
+### fear runs on a temporal model
+
+Carrier-confirmed, and the confirmation is narrow. What was said:
+
+> fear definately hss temporal model aspects
+
+That establishes the temporal component. It does not establish
+anything below this line, which is mine. [obs]
+
+---
 
 `negative-space-metrology.md` §5 defines prediction-horizon skill as
 forward-projection of environment dynamics with a horizon: how long
 the model stays valid × which variables can cross the gap in that
 time.
 
-Fear's reading — threat proximity ranking — is that computation, run
-on the threat subset and reported as an emotion. Dread, above, is the
-same with the projected state already inside range.
+Fear's reading — threat proximity ranking in time-to-contact — has the
+shape of that computation run on the threat subset and reported as an
+emotion. Dread, above, would be the same with the projected state
+already inside range. [inf]
 
 If that identity holds, the panel is partly an *output display for the
-horizon model*, and Q2's problem of measuring horizon directly has a
-second, cheaper handle: the operator's fear/dread readings are already
+horizon model*, and Q2's problem of measuring horizon directly gains a
+second, cheaper handle: fear and dread readings would already be
 horizon output, and they are reportable. That is not a substitute for
 perturbation testing — self-report is the corrupted channel the whole
 framework routes around, and this would be self-report — but the two
 disagreeing would itself be a reading. [inf]
 
-Logged rather than acted on. It is a bridge between two docs that were
-written independently, which is the kind of overlap §2 says to look
-for, and also the kind that is easy to see because you want to.
+```
+CONFIRMED   fear has temporal model aspects
+INFERRED    fear IS the §5 horizon computation
+            the panel is a horizon-model display
+            Q2 gains a handle
+```
+
+The distance between those two lines is the whole width of the A1
+error. "Has temporal aspects" is what the carrier said; "is the same
+computation" is what I want it to say. Keeping them apart is the only
+thing that stops the second from being read back later as carried.
+
+Logged rather than acted on. It is a bridge between two docs written
+independently — the kind of overlap §2 says to look for, and the kind
+that is easy to see because you want to.
 
 ### naming tension, unresolved
 
