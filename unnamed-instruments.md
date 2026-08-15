@@ -250,22 +250,114 @@ impedance, plus the hormonal calibration layer). Listed here only so
 the catalog is complete. The spec is the artifact; this is the
 pointer.
 
-- **Correction from Wave 3:** the calibration layer's *cycle-phase*
-  scheduling is the weak version. Menstrual phase-based programming is
-  not evidence-based (McNulty 2020 trivial ES; Colenso-Semple 2023 90%
-  of quality studies null). The verified axis is **symptom reading**,
-  not inferred phase — which is the direct-reading method anyway.
-  Verified scheduling axis for the daily cycle: time-since-entrained-
-  awakening (chronotype-anchored). [lit]
-- **Literature hook:** the spec independently rediscovers Frijda's
-  action-readiness / control-precedence model (verb-not-noun is
-  verbatim Frijda). Content ≈ action-tendency aim; gain ≈ control
-  precedence; threshold ≈ subthreshold→suprathreshold. Gives the spec
-  a citation lineage. [lit]
-- **Open counter:** content/gain separability is a pragmatic
-  partition, not established as a natural kind (Russell core-affect
-  integral-blend argument; Nook 2021 labeling-can-impede-reappraisal).
-  Testable, currently unproven. [open]
+- **Calibration layer — corrected against dim21 source (not just the
+  convergence summary):** two *distinct* axes, not one.
+  1. *Wake-cycle axis (VALIDATED):* time-since-entrained-awakening,
+     chronotype-anchored. Replicated 2015/2018/2023. Concrete rule:
+     evening types peak ~11–12.6 h after wake, morning types ~5.5–6.7 h
+     after wake. This axis is also the one carried in oral tradition —
+     a proof-of-concept that an oral-tradition timing axis survives
+     rigorous testing. [lit]
+  2. *Neurosteroid-modulation axis (MECHANISM REAL, USE-AS-INSTRUMENT
+     UNSTUDIED):* steroid hormones are potent neuromodulators
+     (allopregnanolone→GABA gating; estrogen→serotonin/dopamine/ACh;
+     testosterone→dopamine). This modulates sensory threshold and
+     apparatus gain — the operator's actual claim. Distinct from the
+     wake axis and slower. [lit for the neuromodulation; gap for the
+     read-as-instrument use — see gap log G1]
+  - What is folklore is narrower than the summary said: cycle-phase
+    predicts *athletic performance* is folklore (dim21: 90% of quality
+    studies null). Cycle-chemical-state modulates *sensor sensitivity*
+    is a different construct on the real neuromodulation side, measured
+    by no one as a trained instrument. Do not conflate the two. [lit]
+- **Literature hook — Frijda, verified against dim20 primaries:** the
+  spec independently rediscovers action-readiness + control-precedence.
+  Content ≈ action-tendency aim; gain/amplitude ≈ control precedence
+  (which Frijda states as *graded*); threshold ≈ Frijda's verbatim
+  subthreshold→suprathreshold; verb-not-noun is Frijda's own "she is
+  angering." [lit]
+  - **Scope distinction (dim20, dropped by the summary):** Frijda's
+    threshold governs *readiness→overt action*; the spec's impedance
+    governs *signal→stack corruption*. These are different transitions.
+    Open question: does the spec's amplitude/impedance split *further
+    differentiate* what Frijda fused (amplitude = readiness→action,
+    impedance = control-precedence-degree), or conflate two things he
+    kept distinct? Bears on the spec's own "are the three axes
+    independent" open item. [open]
+  - **Landmine (dim20):** the gain-crosses-into-corrupting-the-stack
+    mechanism has real support (Arnsten 2009, prefrontal function under
+    chemical load) — but the pop "amygdala hijack" version is rejected
+    (LeDoux; Pessoa & Adolphs). Defensible framing: graded prefrontal
+    impedance under chemical load, NOT a hijack. Never let the spec be
+    described as "flooding hijacks cognition." [lit]
+- **Open counter:** content/gain separability is a pragmatic partition,
+  not established as a natural kind (Russell core-affect integral-blend;
+  Nook 2021 labeling-can-impede-reappraisal). Testable, unproven. [open]
+
+---
+
+## Gap log — missing instrumentation
+
+Per the instrument-gap rule (absence of an instrument is a finding,
+not an apology), these are named gaps: real capacities or real
+questions with no measuring instrument and no adequate literature.
+Framed as *where to look and why the record is thin* — NOT as claims
+the practices below are attested. Leads for keyboard research with
+someone who knows the source traditions, not assertions.
+
+**G1. Neurosteroid state → sensor sensitivity, read as instrument.**
+The mechanism is established neuroendocrinology (G-C note above). What
+is missing is anyone studying it the way the operator uses it: not
+"am I impaired today" (performance frame, found null) but "which
+channel is at what sensitivity today, schedule onto it accordingly."
+Two axes exist — the validated wake cycle and this slower
+neurosteroid one — and the second has been measured, if at all, only
+as a performance disruptor, never as a trained calibration curve.
+Same untrained-baseline problem: measured as deficit, in a population
+that doesn't run it as an instrument. **Should be studied.** [gap]
+
+**G2. Contemplative traditions as prior description of G1.** The most
+likely place calibration knowledge is already described is
+internal-observation traditions — trained-perceiver populations
+psychophysics never samples.
+- *Buddhist monastic (esp. vipassanā / Abhidharma):* strongest
+  textual candidate for fine-grained internal-state → perception
+  language. But most large textual traditions are male-monastic and
+  celibate, so they would richly map the *daily* chemical axis and be
+  structurally near-blind to the *slower/monthly* one — the axis whose
+  carriers weren't holding the pen. [lead, not attested]
+- *Sikh (amrit vela):* a pre-dawn / circadian-window practice — speaks
+  to the *wake-cycle* axis, not obviously the neurosteroid one. Held
+  open; source literature not known well enough here to claim either
+  way. [lead, not attested]
+
+**G3. Matriarchal / women-held contemplative and healing practice.**
+The traditions most likely to hold the G1 knowledge are the *least*
+textualized, and that is not a coincidence — it is the mechanism.
+- *Menstrual-seclusion / red-tent observances:* recorded by
+  (usually outside, usually male) ethnographers as taboo or hygiene.
+  Whether the withdrawal also encodes a structured cycle-keyed
+  internal-observation window is exactly what that framing could not
+  see. Calibration content, if present, is undocumented rather than
+  absent. [lead, not attested]
+- *Curandera / midwife / herbalist lineages:* women's healing lines
+  that necessarily tracked hormonal state closely, transmitted
+  apprentice-to-apprentice — but documented as *pharmacology* (plant
+  for condition), almost never as *perceptual training*. Same gap. [lead]
+- *Female monastic branches* (bhikkhunī, Christian contemplative,
+  Hindu/Jain women ascetics) produced real contemplative literature,
+  but two filters compressed what survived: practices modeled on the
+  male template, and preserved/translated writing skewed male. Even
+  where women mystics wrote, the cycle-keyed calibration question is
+  not what got carried forward. [lead]
+- **The structural finding (this is the attested part):** the
+  knowledge and its documentation came apart *precisely on the axis
+  that belongs to women, in traditions run by men*. The gap is not
+  evidence the knowledge doesn't exist. The gap is evidence about who
+  got to write. This is the untrained-baseline principle one layer up:
+  documented by whoever holds both the capacity and the pen, and a
+  whole axis goes missing when those don't coincide in the same
+  people. [inf, well-supported]
 
 ---
 
@@ -306,3 +398,5 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
 - [lit]  literature (swarm-sourced; verify load-bearing cites at keyboard)
 - [inf]  inference
 - [open] unresolved
+- [lead] a place to look. not an attested claim, and not evidence the
+         practice holds what the lead suggests it might

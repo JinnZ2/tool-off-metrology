@@ -534,7 +534,44 @@ one.
 how distracted they already feel. The behavioural secondary task is
 the point precisely because it does not route through that rating.
 
+**framing — do not lose this one.** The defensible mechanism is graded
+prefrontal impedance under chemical load (Arnsten 2009). The pop
+"amygdala hijack" version is rejected (LeDoux; Pessoa & Adolphs), and
+a positive result here will be *offered* that framing by anyone
+summarizing it. Graded, not seized. The catalog's Column C flags this
+as a landmine and it is one at write-up time, not at design time. [lit]
+
 **cost.** Low apparatus, high discipline. Weeks of logging.
+
+### C-d. Does the spec's split differentiate Frijda, or conflate him?
+
+```
+claim          amplitude and impedance are two axes corresponding to
+               two transitions Frijda kept distinct — not one axis
+               he already had
+```
+
+**design.** Rides on the C-a and C-b logs at no extra cost. Code every
+reading twice:
+
+```
+amplitude    did it cross into overt action?
+             (Frijda's readiness → action)
+impedance    did it degrade the concurrent secondary task?
+             (the spec's signal → stack corruption)
+```
+
+**discriminator.** Dissociation. A reading that crossed into action
+without degrading the secondary task — or degraded it without crossing
+into action — is evidence the axes separate. Neither case appearing
+across a long log is evidence they are one thing.
+
+**null says.** Perfect co-occurrence means the spec has one axis under
+two names, and Frijda's single graded control-precedence covers it.
+That simplifies the spec rather than breaking it, and the spec should
+say so rather than keeping a distinction the log did not support.
+
+**cost.** Zero beyond C-a and C-b.
 
 ### C-b. The separability test — P-series
 
@@ -581,6 +618,162 @@ separate reason.
 
 ---
 
+---
+
+## G — the gap log
+
+The catalog's G-entries are named absences rather than instruments.
+Two of them can be attacked directly. The other two cannot be attacked
+by this repo at all, and that is a finding about the protocol rather
+than an obstacle to it.
+
+### G1-a. Differential channel sensitivity across the neurosteroid axis
+
+```
+claim          neurosteroid state shifts the RELATIVE sensitivity of
+               sensory channels, and a trained operator can predict
+               which channel is up and which is down before measuring
+```
+
+**design.** Within-subject and longitudinal — one cycle minimum,
+three better. Each session:
+
+```
+1  anchor the session to time-since-wake. the wake-cycle axis is
+   validated, faster and larger, and will otherwise swamp this one
+2  operator logs the PREDICTION first — which channels are up, which
+   down, relative to their own baseline
+3  then measure, using the catalog's own quantified instruments as
+   the readout: A3 palm-radiometry threshold, A2 tool-mediated
+   discrimination, plus a standard auditory or visual threshold as a
+   channel the practice makes no claim about
+4  salivary assay where affordable, cycle-day where not
+```
+
+**discriminator.** Does the *ordering* in the prediction match the
+ordering in the measurement, above chance? Not "was the operator
+sharper today" — that is the performance frame, and the performance
+frame is the one that already came back null.
+
+**why the existing null does not settle this.** A scalar performance
+index averages across channels. If one channel rises while another
+falls, the average moves toward zero and a study looking for
+worse-today finds nothing while a real differential shift runs
+underneath it. That is a residual in the framework's own sense — the
+aggregate measure hides the structure — and it is structurally the
+same failure §4 documents for FCE, where the instrument measuring the
+assumed cause had no predictive power over the outcome. [inf]
+
+**null says.** No prediction/measurement match kills the
+read-as-instrument claim, which is the claim at issue. It leaves the
+neuroendocrinology untouched — that stands on its own literature and
+never needed this.
+
+**confounds.**
+
+```
+expectancy   the operator knows their cycle day and the prediction is
+             not blind to it. this is exactly why the measurements
+             must be objective and the prediction recorded BEFORE
+             them, by procedure rather than by intention
+wake axis    validated, faster, larger. anchor or lose the signal
+life         sleep, load, illness. log them — they are the first
+             alternative explanation anyone will offer, and they will
+             be right to offer it
+```
+
+**cost.** Low apparatus, high discipline, months. Carrier-bound.
+
+### G2/G3-a. Where to look, and what would count
+
+Not experiments. Searches — and a search needs a stopping rule and a
+criterion as much as an experiment needs a null.
+
+```
+claim          calibration knowledge of the neurosteroid axis is
+               described in trained-perceiver traditions, and reads
+               as absent because of who did the documenting
+```
+
+**the hard part, stated before starting.** Absence of description is
+precisely what the hypothesis predicts. That makes it very difficult
+to falsify and very easy to believe, which is the combination this
+repo's §7 exists to catch. The criterion below is what keeps it a
+search rather than a conviction.
+
+**what would count as positive**, roughly strongest first:
+
+```
+living carrier says so, unprompted, to an open question — strongest,
+  and the only route that does not depend on what got written
+vocabulary residue — terms for states or timings with no documented
+  practice attached. a language keeps words for what it used to do
+prohibition residue — a rule against X implies X. seclusion rules
+  recorded with functional detail the recorder plainly did not
+  understand are the specific case here
+outsider description with unexplained structure — a schedule read as
+  taboo by the ethnographer that tracks something physiological they
+  were not tracking
+```
+
+**what would count as negative** — this is the part that makes it a
+test:
+
+```
+traditions where women DID hold the pen. bhikkhunī literature,
+  Christian women contemplatives, women's Hindu and Jain ascetic
+  writing. the hypothesis says the axis went missing because the
+  carriers were not the writers. where the carriers WERE the writers
+  and the axis is still absent, the who-held-the-pen explanation
+  fails and something else is going on.
+```
+
+**null says.** An empty search bounds the search, not the question —
+same discipline as Q1. State where you looked, state that you stopped,
+and do not keep searching for an absence.
+
+**cost.** Desk work, plus someone who reads the source languages. The
+`[lead]` tags in the catalog are load-bearing here: none of those
+traditions is attested to hold this, and the search is what would
+change that.
+
+### The constraint that changes the design
+
+This repo's frame is that naming moves a practice off the carrier
+clock. For G2 and G3 that premise does not straightforwardly hold, and
+the difference is structural rather than procedural.
+
+```
+restricted        some traditions restrict transmission by
+knowledge         initiation, sex, or kin. documenting it is not
+                  neutral preservation — for that tradition it can
+                  be the exact harm the restriction exists to prevent
+
+extraction        a catalog entry is an extraction unless the carrier
+                  community decides it is not. "cataloguing is the
+                  first move off the clock" is a claim the frame
+                  makes, and it is made from outside
+
+whose question    the difference between asking a community what they
+                  hold and asking them to fill a gap in your catalog
+                  is visible from their side even when it is not
+                  visible from yours
+```
+
+Practical consequence: G2 and G3 are the only items in this document
+that should not be run by this repo alone. They need someone inside
+the tradition, and the correct outcome may be that the knowledge is
+confirmed to exist and is deliberately not written down here. That is
+a successful result, not a failed one.
+
+The tension with the catalog's frame is real and is left standing. The
+naming-is-the-intervention case was built on proprioception, where
+nobody owned the sense and no one was harmed by its being named. It
+does not transfer unexamined to knowledge somebody's grandmother held
+under a rule about who gets told. [open]
+
+---
+
 ## What none of these test
 
 Stated so the set is not mistaken for coverage.
@@ -596,6 +789,11 @@ the framework's Q-series. these test the catalog, not the metrology
 whether a positive result would transfer to someone who did not grow
   up in the practice. that is the untrained-baseline problem from the
   other side, and nothing here answers it
+whether the G3 structural finding is right. G2/G3-a searches for the
+  knowledge; it does not test the claim that documentation and
+  capacity came apart on a particular axis. that claim is about the
+  historical record and would need a historian's instrument, not a
+  psychophysical one
 ```
 
 ---

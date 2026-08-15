@@ -76,6 +76,19 @@ the paraphrase against, and the entry lands in the wrong tier with the
 error looking like rigor. A1 now carries a Provenance line recording
 that the fault-only scope was the original claim. [obs]
 
+**The log has since been started, elsewhere.** `unnamed-instruments.md`
+now carries a Gap log section with G1–G3. That resolves the "when it
+exists" hedge in this plan and changes Q7's job: the task is no longer
+to start a log but to keep one log rather than two, and the catalog is
+where it lives. Q7's contribution is the entry format above and the
+skills-side entries the catalog does not cover. [obs]
+
+G1 is a worked entry in the format's spirit — a named absence with the
+mechanism established and the read-as-instrument use unstudied. G2 and
+G3 are a different shape: gaps in the *record* rather than gaps in
+instrumentation, and the format above does not fit them cleanly. Do
+not force it. [open]
+
 Two parallel catalogs already exist and should converge on this format
 rather than being merged:
 
@@ -515,11 +528,19 @@ CHEAP, NEEDS A BUILD
          drift
 
 CARRIER-BOUND, LONG
-  C-a/b/c  the reading log. months, and it cannot start retroactively
+  C-a/b/c/d  the reading log. months, cannot start retroactively,
+             and C-d rides on it for free
+  G1-a       differential channel sensitivity. months, anchored to
+             time-since-wake, prediction logged before measurement
 
 EXPENSIVE, RUN LAST
   A1-c   trained vs untrained. recruitment
   A2-b   the HAVS gradient. field recruitment and a real sample
+
+NOT THIS REPO'S TO RUN ALONE
+  G2/G3  the archival search. needs someone inside the tradition,
+         and a correct outcome may be that the knowledge is confirmed
+         and deliberately not written here
 ```
 
 Two of these earn their priority for reasons beyond their topic.
@@ -580,6 +601,38 @@ close that mismatch — it narrows it by an unmeasured amount, and the
 repo currently has no instrument for the amount. That is a `[gap]`
 sitting inside the repo's own remedy, which is exactly the sort of
 thing §2 says to log rather than apologize for.
+
+### and the second failure of the same remedy
+
+`unnamed-instruments.md` G3 names the other one, and it is sharper:
+documentation requires holding both the capacity and the pen, and
+where those do not coincide in the same people an entire axis goes
+missing from the record. The catalog's phrasing is the one to keep —
+the gap is not evidence the knowledge doesn't exist, it is evidence
+about who got to write.
+
+Two distinct failures, and they compose:
+
+```
+lossy render     what gets written down loses a measured fraction of
+                 what was held                                  [lit]
+absent scribe    what never gets written down at all is selected by
+                 who holds the pen, not by what is worth keeping [inf]
+```
+
+This is the untrained-baseline principle one layer up, and it makes a
+third instance of the §1 inversion — the standard instrument reading
+backwards. Self-report is corrupt where it matters; tool-on metrics
+mask atrophy; attention counting scores the novice higher; and the
+documentary record scores an undocumented capacity as absent when the
+absence is about literacy and authority rather than about the capacity.
+
+Stated carefully, because this is where §7's seam would open: the
+convergence is across four measurement channels, all showing an
+instrument that reads a real competence as missing. That is
+convergence. It is not a law, and the fourth instance is historical
+rather than experimental, which makes it the weakest of the four and
+the most rhetorically attractive. Keep those facts adjacent. [inf]
 
 ---
 

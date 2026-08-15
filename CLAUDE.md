@@ -24,6 +24,16 @@ Protocols in `experiments.md` carry a `null says` line stating what a
 negative result kills and what it leaves standing. A protocol without
 one is not designed, and it will find something.
 
+The gap log lives in `unnamed-instruments.md` (G-entries), not in a
+file of its own. Keep it there — one log, not two.
+
+Some gaps are gaps in the record rather than in instrumentation, and
+they touch living communities and restricted knowledge. Where they do,
+the repo's own frame — naming is the intervention — is a claim made
+from outside, and cataloguing can be the harm the restriction exists
+to prevent. That tension is logged in `experiments.md` and stays
+unresolved. Do not write around it.
+
 `sensor-panel.md` mixes provenance on purpose: carried entries are
 `[obs]`/`[panel]`, schema-derived candidates are `[inf]`, and they live
 in separate sections. Never move an entry up a column. A derived
@@ -52,7 +62,14 @@ untagged claims are the defect.
 ```
 
 Individual specs may add local tags (`emotion-reading-spec.md` uses
-`[panel]`). Declare any added tag in that file's own tag list.
+`[panel]`; `unnamed-instruments.md` uses `[lead]`). Declare any added
+tag in that file's own tag list — an undeclared tag is the same defect
+as an untagged claim.
+
+`[lead]` in particular is not a weak `[inf]`. It marks a place to look,
+and it carries no claim that the place holds anything. Writing about a
+lead as though it were evidence is the failure the tag exists to
+prevent.
 
 Rules that follow from the convention:
 
