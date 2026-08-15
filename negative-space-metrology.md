@@ -32,11 +32,23 @@ attention counting → scores the NOVICE higher (measurement inversion)  [inf]
                      expert samples sparsely under a model of the system;
                      any eyes-on-task / glances-per-min metric reads
                      the calibrated operator as disengaged
+heartbeat counting → rewards NORM-KNOWLEDGE over sensing         [lit:high]
+                     routed in from unnamed-instruments G4.
+                     Ring & Brener 1996/2018: passable with no
+                       interoception by estimating from known resting rate
+                     Desmedt 2021: expectation predicts performance r=0.78
+                     strict "count only beats you feel" halves scores
+                     the three standard tasks do not correlate with
+                       each other; 1 of 73 qualified on all three
+                     whether it ranks the true perceiver BELOW the
+                       arithmetician — the inversion proper — is not
+                       yet shown, only that the task measures the
+                       wrong thing                                     [inf]
 ```
 
 Same inversion recurs: yellow-vest saturation, safety-reporting numbers,
-FCE lifting scores, attention metrics. When the standard instrument reads
-backwards, that IS the signal.
+FCE lifting scores, attention metrics, heartbeat-counting scores. When
+the standard instrument reads backwards, that IS the signal.
 
 ---
 

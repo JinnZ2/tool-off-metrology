@@ -537,6 +537,12 @@ EXPENSIVE, RUN LAST
   A1-c   trained vs untrained. recruitment
   A2-b   the HAVS gradient. field recruitment and a real sample
 
+ANYONE CAN RUN THIS ONE
+  G4-a   heartbeat discrimination vs counting vs norm-knowledge.
+         standard kit, one session per subject, no carrier
+         dependency. settles whether §1's newest entry is an
+         inversion or only an invalid instrument
+
 DESK WORK, CHEAP, DO EARLY
   G3 Kinaaldá probe   read Frisbie 1967 directly and ask whether
          calibration content is present in the best-documented case
@@ -660,8 +666,33 @@ lived entirely in reporting. Applied here: a capacity absent from a
 record may also be absent from the practice, and the two are not
 separable by reading the record harder. [lit]
 
-Convergence across three channels stands and is what §2 asks for.
-Three is the number. [inf]
+### the tally, kept honest
+
+G4 routes a new candidate into §1 — heartbeat counting, which rewards
+knowledge of population norms over sensing. It arrives with better
+evidence than the documentary one and it is worth counting carefully
+rather than adding to a pile.
+
+```
+self-report          pilots claimed the capability, all failed the
+                     sim. demonstrated                       [lit:high]
+tool-on metrics      aided ADR rose while unaided fell.
+                     demonstrated                             [lit:med]
+attention counting   expert samples sparsely and reads as
+                     disengaged. inferred, and always was        [inf]
+heartbeat counting   task measures the wrong thing —
+                     demonstrated [lit:high]. that it ranks the
+                     perceiver BELOW the arithmetician —
+                     inferred, and G4-a is the one measurement
+                     that would settle it                        [inf]
+absent scribe        retracted as an inversion above. mechanism
+                     holds; the inversion needs an anchor       [open]
+```
+
+Two demonstrated, two inferred, one retracted. That is the accurate
+sentence and it is less quotable than "the same inversion recurs
+everywhere," which is the §7 seam wanting to close. The recurrence is
+real at two channels and plausible at two more. [inf]
 
 ---
 

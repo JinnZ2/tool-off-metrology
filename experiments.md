@@ -849,6 +849,112 @@ above removes the explanation that used to absorb it.
 traditions is attested to hold this, and the search is what would
 change that.
 
+### G4-a. Invalidity, or inversion?
+
+G4 says the heartbeat-counting task rewards norm-knowledge over
+sensing. That claim has two strengths and the catalog states the
+stronger one:
+
+```
+INVALIDITY  the task measures something other than interoception
+            — established. arithmetic passes it, expectation
+            predicts it at r=0.78, strict instructions halve
+            scores, and the three standard tasks disagree with
+            each other                                     [lit:high]
+INVERSION   the task ranks a true perceiver BELOW a non-perceiver
+            who knows population norms — not established. it
+            follows from the mechanism, and following from a
+            mechanism is not the same as being measured    [inf]
+```
+
+The difference matters to this repo specifically. §1's detector list
+is a list of *inversions*, not of bad instruments, and the two carry
+different weight. One measured comparison settles it.
+
+```
+claim          heartbeat-counting score ranks interoceptive
+               accuracy backwards once norm-knowledge is measured
+               alongside it
+```
+
+**design.** Three measures on the same participants:
+
+```
+a  a discrimination task — judge whether a tone train is
+   synchronous with own heartbeat. cannot be passed by counting
+   or by estimating from a known rate, which is the point
+b  knowledge of own resting heart rate, asked directly and
+   checked against measurement
+c  the standard heartbeat-counting task
+```
+
+**discriminator.** Regress c on a and b. Invalidity predicts b
+dominates and a contributes little. Inversion predicts something
+stronger and rarer — a negative partial for a, meaning that among
+people matched on norm-knowledge, the better perceivers score *worse*.
+Then look directly at the corner cases: high-a/low-b against
+low-a/high-b, and see which the standard task ranks higher.
+
+**null says.** No negative partial means invalidity without inversion.
+G4's gap stands untouched — the instrument is still unusable — but the
+`[lit:high]` on the inversion framing in §1 comes down to `[inf]`, and
+the detector list keeps three inversions rather than gaining a fourth.
+
+**confounds.** The discrimination task has its own literature and its
+own critics; it is better than counting, not clean. Report which
+variant and its own reliability rather than treating it as ground
+truth.
+
+**cost.** Low. Standard psychophysiology kit, one session per
+participant, no carrier dependency — this is the one protocol here
+that anyone could run.
+
+### What G4 does and does not do to the Column C protocols
+
+G4 says there is no instrument capable of testing a content-field
+claim: the objective side rewards arithmetic, the report side rewards
+credentialed vocabulary. That is a real problem and it lands unevenly
+on the protocols above.
+
+```
+C-a  survives. the outcome is a behavioural secondary task, and the
+     gain rating is the predictor. same structure as G1-a — a
+     vocabulary effect cannot produce a match against an
+     instrumented outcome
+C-b  survives, and for a reason worth naming. the outcome is the
+     ACTION TAKEN, not a report about a feeling. the spec's own
+     verb-not-noun rule is what makes this measurable, and it
+     sidesteps the report-channel failure that the interoception
+     literature is stuck in                                    [inf]
+C-c  rides on C-b, same footing
+C-d  rides on C-a and C-b, same footing
+```
+
+That is a genuine methodological advantage and it should not be
+oversold. The spec solves the *report* channel by resolving readings
+to actions. It does nothing for the objective channel, where G4's gap
+is untouched — nothing here measures whether the reading corresponds
+to an internal state at all, only whether it predicts what the
+operator then does.
+
+Cross-link: B2-d is the relevant test of the render-target half of
+G4's report-channel argument. If verbal rendering loses most detail,
+then a questionnaire is close to the worst available instrument for a
+non-verbal store, and the interoception field has been using nothing
+else. [inf]
+
+### Standing constraint — no neural substrate
+
+Do not attach the spec or the panel to an anatomical seat. The insula
+version is already disposed of: bilateral insula, ACC and amygdala
+destruction left pain affect, emotion and self-awareness intact
+(Feinstein 2016), and anterior insula activation accompanies anything
+salient, so it discriminates nothing. [lit:high]
+
+This is a standing constraint rather than a protocol because the
+temptation arrives at write-up, when a behavioural result wants a
+mechanism attached to make it feel solid. The result is the result.
+
 ### The constraint that changes the design
 
 This repo's frame is that naming moves a practice off the carrier

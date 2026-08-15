@@ -460,6 +460,77 @@ knowledge existed. It is not. It is evidence about who wrote. [inf]
 
 ---
 
+**G4. Interoception — no usable instrument on EITHER channel (dim26,
+Wave 4). Both are compromised, and the compromise bears directly on
+Column C.**
+
+The field's central result is a dissociation: self-reported
+interoceptive sensibility and objective heartbeat accuracy are
+essentially uncorrelated (r≈0.06; correctly described as "near-zero
+and instrument-dependent," not a stable point estimate). dim26 reads
+this as "accuracy is irrelevant — build content on attention, beliefs,
+granularity instead." **That inference does not hold**, because both
+channels fail, and the dissociation may be an artifact of the two
+failures rather than a fact about interoception.
+
+*Objective channel — scores the competence backwards.* The dominant
+accuracy task (heartbeat counting) can be passed with no interoception
+at all: knowing typical resting heart rate and estimating from it
+produces above-chance scores (Ring & Brener 1996/2018). Expectation
+predicts performance at β=.595, r=0.78 in replication (Desmedt 2021).
+Strict "count only beats you actually feel" instructions cut scores
+~50%. The task rewards **knowledge of population norms over sensing** —
+someone who genuinely feels their heartbeat but doesn't know what a
+resting rate should be scores *lower* than someone who feels nothing
+and does arithmetic. Measurement inversion, same shape as the FCE
+residual and eyes-on-task counting → routed to `tool-off-metrology` as
+a third inversion instance. Also: the three dominant tasks do not
+correlate with each other ("likely assess partly different abilities");
+of 73 participants, exactly one qualified as a perceiver on all three.
+A construct cannot be declared irrelevant using instruments that
+disagree with each other. [lit, high]
+
+*Self-report channel — measures cultural permission to speak.* Every
+sensibility measure is a questionnaire administered in a language and
+culture that has **already sorted interoception onto the emotional side
+of a rational/emotional split**, in cultures where the rational side is
+the one that counts. Consequences:
+- The same internal reading has two available renderings — "I noticed a
+  change in my body" vs "I felt something" — and only one is
+  credentialed. Which one a person reaches for tracks their culture's
+  vocabulary, not their sensing. This is the render-target problem from
+  B2: the store is one thing, the available output words are another,
+  and the questionnaire only ever sees the output.
+- Where that vocabulary is discrediting, people whose competence *is*
+  body-based will systematically underreport; high scorers may be
+  selecting for willingness to use the vocabulary rather than for
+  sensing. [inf]
+- **Demonstrated instance:** the konenki / Hilo case (see the standing
+  counter-case above). No word uniquely denoting a hot flash →
+  reporting at ~1/3 the North American rate → skin conductance found
+  **no difference**. The word was absent, so the report was absent, and
+  the physiology was identical. [lit]
+- This cuts both ways: it warns against reading self-report differences
+  as capacity differences, *and* against reading low self-report as
+  absent capacity. [inf]
+
+*The gap, stated:* there is currently **no instrument capable of
+testing a content-field claim.** The objective side rewards
+norm-knowledge over sensing; the self-report side rewards
+culturally-credentialed vocabulary for internal state. A real test of
+Column C needs an objective task that cannot be passed by arithmetic,
+and a report channel that does not require the subject to first
+categorize their own reading as emotional. Neither exists. [gap]
+
+*Corollary — do not give the spec a neural substrate.* dim26 also
+disposes of "insula = seat of feeling": a patient with bilateral
+insula, ACC, and amygdala destruction retained pain affect, emotion,
+and self-awareness (Feinstein 2016), and the anterior insula activates
+for anything salient (salience-network hub), so it is evidence for
+nothing in particular. [lit, high]
+
+---
+
 ## The frame — naming is the intervention
 
 Every entry here is uncodeable by any system whose builders don't hold
@@ -502,8 +573,8 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
 Column C's neurosteroid axis takes no tier here. Its mechanism is
 established neuroendocrinology and its use as an instrument is
 unstudied, which is neither a documented instrument nor an open
-hypothesis about a reading. That state is a gap, and it is logged as
-G1.
+hypothesis about a reading. That state is a gap, logged as G1. G4 is a
+gap on both channels at once and likewise takes no tier.
 
 ## Tags
 

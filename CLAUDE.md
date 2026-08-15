@@ -148,6 +148,11 @@ strip that seam wherever it appears — including in text you just wrote.
 Corollary: do not summarize a document into a stronger claim than the
 document supports. Do not add executive summaries.
 
+Second corollary: do not attach a neural substrate to anything here.
+The seat-of-feeling version is already disposed of in the catalog's G4,
+and the temptation arrives at write-up — a behavioural result wanting
+an anatomy bolted on to make it feel solid. The result is the result.
+
 ## Editing existing docs
 
 - Preserve author voice and phrasing. These are the author's field notes;
