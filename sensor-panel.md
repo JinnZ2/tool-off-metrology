@@ -245,6 +245,12 @@ UNRESOLVED
     and nothing has confirmed it.                             [open]
 ```
 
+These are P1–P4 in `plan.md`, which carries the rest of the panel's
+open set and a proposed test for the whole shape of them — two
+readings are separate channels when the correction diverges, which is
+the ground the spec's own worked example separates surprise from
+frustration on.
+
 ### one implication, flagged and not built on
 
 A reading that can be *externally applied* is a channel that something

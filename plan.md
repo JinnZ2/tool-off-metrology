@@ -327,24 +327,151 @@ Q4  ────────────────► capped at [inf] until th
 Q6  ────?────────────► gated on whether per-task data exists at all
 Q2  ═══════════════════════════════════╗
                                        ╚═════►  Q3   (hard block)
+
+P1–P7 ═══════════════════════════╗
+                                 ╚═════►  all of them, gated on the
+                                          separability test being
+                                          agreed first
+P8  ────────────────────────────────────►  routes into the Q7 log
+P9  ────────────────────────────────────►  desk work, independent
+P10 ────────────────────────────────────►  resolved by asking
 ```
+
+The P-gate is soft but real: answer P1–P7 without a shared criterion
+for what makes two readings separate, and the answers are preferences
+with tags on them. [inf]
 
 ---
 
-## Next three
+## Panel questions — the separability set
+
+Not in §8. Sourced from `sensor-panel.md` and `emotion-reading-spec.md`
+and numbered P-series so they do not collide with the framework's Q's.
+
+Carrier-confirmed as part of the needed exploration, not as a tidy-up
+of loose tags. [obs]
+
+### they are all one question wearing different clothes
 
 ```
-1  Q7   start the gap log. fixed entry format, one entry already
-        written. front-load any entry whose carriers are aging —
-        expiry, not cost.
+P1  what are shame's components?                                 [open]
+P2  is internal / externally-applied an AXIS OF the compound, or a
+    separate question about where the compound came from?        [open]
+P3  is that axis the spec's inward/outward clearing split, or a
+    different cut that happens to look like it?                  [open]
+P4  guilt — own channel, or part of the shame compound?          [open]
+P5  is the panel breach-only by design, or missing a positive
+    side?                                                        [open]
+P6  which derived candidates are actually carried, and which are
+    schema artifacts that read well?                             [inf]
+P7  disgust on a person — misuse of one channel, or a second
+    channel with the same signature?                             [open]
+P8  is there any instrument that separates a carried reading from
+    an externally applied one?                                   [gap]
+P9  content / gain separability — pragmatic partition or natural
+    kind? (Russell core-affect; Nook 2021)                       [open]
+P10 does the practice have a calibration layer, and is the third
+    field gain or amplitude?                                     [open]
+```
+
+Every one of these is *is this one thing or two*. That is a single
+methodological problem, and without a criterion each gets answered by
+taste — which reads as rigor and is not.
+
+### the criterion is already in the spec
+
+The spec's worked example separates surprise from frustration on one
+ground, and it is not that they feel different:
+
+```
+surprise      → extend the model; the case was genuinely absent
+frustration   → the model was adequate; fix the loading
+```
+
+Different correction. That is the whole separation, and it is the
+verb-not-noun test turned on the taxonomy instead of on a single
+reading.
+
+```
+SEPARABILITY TEST — proposed, not carried                        [inf]
+  two candidate channels are ONE channel with two names if they
+  license the same correction in every case.
+  they are SEPARATE if there is a case where the correction
+  diverges — regardless of how similar they feel, and regardless
+  of whether one word covers both in ordinary speech.
+```
+
+Applied, this makes the P-set answerable rather than debatable:
+
+```
+P1   count shame's distinct corrections. that is the component count.
+P2/3 do the two cuts resolve to different actions? if internally-
+     generated and externally-applied shame clear the same way, it is
+     one axis under two descriptions.
+P4   does guilt license a correction shame does not?
+P6   the derived entries already claim divergent corrections — boredom
+     loads a harder model, exhaustion replenishes. that is the claim
+     to test, and it is testable.
+P7   does disgust-at-a-person license exclusion, same as disgust at a
+     substance? if yes it is one channel being aimed badly. if the
+     correction differs, it is two.
+```
+
+### what the test cannot do
+
+It is a pragmatic partition and nothing more. It says whether a
+distinction earns its keep in the panel; it says nothing about whether
+the channels are natural kinds. That is P9, and it is a different
+question with its own literature already pointing the other way —
+`unnamed-instruments.md` Column C carries the counter.
+
+A panel that passes the correction test everywhere and turns out to
+carve nothing real would still be a working instrument. It would just
+not be a theory. Do not let the first get written up as the second.
+[inf]
+
+### sequencing — this set outranks the desk work
+
+P1–P7 are carrier-dependent. No literature answers them, because the
+practice is the only place the corrections are observable. By this
+document's own sequencing rule they sort on expiry, not cost, and
+that puts them above Q1 and Q5.
+
+P10 is the exception and should be done immediately: it is resolved by
+asking, not by research, and it is currently sitting in a roadmap as
+though it were a question. A five-minute answer does not belong here.
+
+P8 is a `[gap]` and routes to the Q7 log rather than being worked
+directly.
+
+P9 is desk work and can run whenever.
+
+---
+
+## Next, in order
+
+```
+0  P10  ask. it is not a research question and should not be sitting
+        in a research plan overnight.
+
+1  P1–P7 + Q7   the carrier-bound set. both are on the expiry clock
+        and they share it, so they run together rather than in
+        sequence. P-set needs the separability test held in hand;
+        Q7 needs the entry format and nothing else.
 2  Q1   bounded citation trace. state the bound before starting.
 3  Q5   mixedness audit. expect a negative result and publish it as one.
 ```
 
+Q1 and Q5 moved down. They did not get less valuable — the carrier-
+bound work got more urgent, which is the sequencing rule doing its job
+rather than an assessment changing.
+
 Q2's bench step runs in parallel if there is capacity for it — it is the
 hinge, and it is the longest pole. Everything downstream of it waits.
 
-### Off-roadmap — the cheapest empirical test in the repo
+---
+
+## Off-roadmap — the cheapest empirical test in the repo
 
 Not in §8. `unnamed-instruments.md` A1 proposes a blinded test of
 arm-hair fault detection: known-faulted vs known-intact runs, operator
