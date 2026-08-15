@@ -27,12 +27,36 @@ hope with a procedure attached, and it will find something.
 
 ## Cross-cutting rules
 
-### 1. Never produce another untrained baseline
+### 1. Two numbers or none — and say which kind of gap it is
 
 The catalog's own principle, as a design constraint. Any threshold
 measured here reports two numbers or none: trained carriers and naive
 controls, with the gap as the finding. A single-population number
 reproduces exactly the failure the catalog names. [obs → rule]
+
+Second half of the same rule, from the catalog's standing counter-case
+— a measured group difference can be either of two things, and they
+are not distinguishable without objective instrumentation:
+
+```
+threshold difference   the instrument itself performs differently
+reporting difference   the instrument performs the same and the
+                       attention, vocabulary or willingness to
+                       report differs
+```
+
+The konenki case is the worked warning: a large, robust, replicated
+cross-cultural difference in reported hot flashes that moved with
+diet and biomedicalization over twenty years, and vanished when the
+Hilo study measured skin conductance instead of asking. [lit]
+
+Design consequence, and it is not a caveat: **every protocol here that
+compares trained carriers to controls must have an objective readout,
+not a report.** A protocol whose dependent variable is what the
+operator says cannot tell the two apart, and will find the effect
+either way. Where a design does use self-report — G1-a's prediction
+step — the report must be the *predictor* and something instrumented
+must be the *outcome*.
 
 ### 2. Method of loci is the positive control
 
@@ -659,8 +683,8 @@ three better. Each session:
 ```
 1  anchor the session to time-since-wake. the wake-cycle axis is
    validated, faster and larger, and will otherwise swamp this one
-2  operator logs the PREDICTION first — which channels are up, which
-   down, relative to their own baseline
+2  operator logs the PREDICTION first — an ORDERING across channels
+   plus a direction per channel, not a single "sharper today"
 3  then measure, using the catalog's own quantified instruments as
    the readout: A3 palm-radiometry threshold, A2 tool-mediated
    discrimination, plus a standard auditory or visual threshold as a
@@ -668,10 +692,35 @@ three better. Each session:
 4  salivary assay where affordable, cycle-day where not
 ```
 
+**sampling — the part dim23 changes.** The driver is the *rate of
+change*, not the level. [lit:high] A design that bins sessions into
+three or four cycle phases cannot see a rate, and will average across
+exactly the transition that carries the signal. Sessions must be
+daily or near-daily, and dense through the luteal decline where the
+kinetics differ most between people. The analysis variable is the
+derivative, not the level.
+
+**analysis — the second thing dim23 changes.** Gain is *altered*, and
+can inverse across the range: less sensitive at low doses, more at
+luteal-range and above, with paradoxical worsening. [lit:high] A model
+that fits "sensitivity rises with X" will miss a sign change and score
+it as noise. The analysis has to allow non-monotonic response, and the
+prediction has to be recorded in a form that can be wrong in that way
+— which is why step 2 asks for direction per channel rather than a
+scalar.
+
 **discriminator.** Does the *ordering* in the prediction match the
 ordering in the measurement, above chance? Not "was the operator
 sharper today" — that is the performance frame, and the performance
 frame is the one that already came back null.
+
+**why this design satisfies the counter-case.** Cross-cutting rule 1
+requires an objective readout wherever trained capacity is claimed.
+Here the self-report is the predictor and the instrumented threshold
+is the outcome, so a pure attention-and-reporting difference cannot
+produce a match — the operator's report has to track something a
+radiometer and a probe can measure. That structure is what separates
+this from the konenki failure mode. [inf]
 
 **why the existing null does not settle this.** A scalar performance
 index averages across channels. If one channel rises while another
@@ -698,7 +747,19 @@ wake axis    validated, faster, larger. anchor or lose the signal
 life         sleep, load, illness. log them — they are the first
              alternative explanation anyone will offer, and they will
              be right to offer it
+borrowed     every effect size in this literature comes from
+magnitudes   symptomatic samples. use it for the VARIABLE — gradient,
+             not level — and not for how big the effect should be in
+             a healthy carrier. importing a magnitude from a disorder
+             sample is how a null gets called a failure
 ```
+
+**a note on what not to copy.** Schmidt 1998 established the premise
+by suppressing the axis with GnRH and adding hormones back. That is
+the causal design and it is the reason the premise is solid — and it
+is pharmacological, invasive, and entirely wrong for a healthy carrier
+reading their own instrument. Cite it for the premise. Do not model
+the protocol on it.
 
 **cost.** Low apparatus, high discipline, months. Carrier-bound.
 
@@ -709,46 +770,79 @@ criterion as much as an experiment needs a null.
 
 ```
 claim          calibration knowledge of the neurosteroid axis is
-               described in trained-perceiver traditions, and reads
-               as absent because of who did the documenting
+               described somewhere in a trained-perceiver tradition
 ```
 
-**the hard part, stated before starting.** Absence of description is
-precisely what the hypothesis predicts. That makes it very difficult
-to falsify and very easy to believe, which is the combination this
-repo's §7 exists to catch. The criterion below is what keeps it a
-search rather than a conviction.
+**scope, corrected.** The earlier version of this claim added "and
+reads as absent because of who did the documenting." dim27 does not
+support that as a premise — it supports it as one possible explanation
+among others, and the search has to be able to come back empty without
+that explanation absorbing the result. Search first. Explain after.
+
+**do not walk these.** Refuted as historical carriers and struck from
+the lead list: the contemporary Red Tent movement (invented tradition,
+1997 novel, the author says so herself), the generic Goddess-milieu
+"moon lodge" (modern pan-Indian syncretism), and menstrual synchrony
+as supporting folklore (the largest dataset found cycles diverging).
+Anyone searching this area will meet all three early and they look
+like leads. [lit]
+
+**search the tribally-specific, never the category.** This is dim27's
+operative instruction and it changes the unit of search. "Menstrual
+seclusion" is not one object — documented instances carry opposite
+purposes, and the best hormone-verified case in the record (Strassmann's
+Dogon work) is read by its own investigator as paternity surveillance
+rather than rest or instruction. A search run at category level will
+average real practices with invented ones and with a case that points
+the other way.
 
 **what would count as positive**, roughly strongest first:
 
 ```
 living carrier says so, unprompted, to an open question — strongest,
   and the only route that does not depend on what got written
+community's own publication says so. the Wabanaki material is a
+  community/revival publication, not an outsider ethnography. read
+  what communities have published about themselves before reading
+  what was published about them
 vocabulary residue — terms for states or timings with no documented
   practice attached. a language keeps words for what it used to do
-prohibition residue — a rule against X implies X. seclusion rules
-  recorded with functional detail the recorder plainly did not
-  understand are the specific case here
 outsider description with unexplained structure — a schedule read as
   taboo by the ethnographer that tracks something physiological they
   were not tracking
 ```
 
-**what would count as negative** — this is the part that makes it a
-test:
+**one inference dropped.** The earlier version listed "prohibition
+residue — a rule against X implies X." Keep the first half and lose
+the second: a documented rule is evidence of the *behavior* and not of
+its *meaning*, which is exactly the distance the Dogon case measures.
+Seclusion is well attested there and the calibration reading is not
+what it was for. [lit]
+
+**what would count as negative** — two tests, and the second is new:
 
 ```
-traditions where women DID hold the pen. bhikkhunī literature,
-  Christian women contemplatives, women's Hindu and Jain ascetic
-  writing. the hypothesis says the axis went missing because the
-  carriers were not the writers. where the carriers WERE the writers
-  and the axis is still absent, the who-held-the-pen explanation
-  fails and something else is going on.
+1  traditions where women DID hold the pen. bhikkhunī literature,
+   Christian women contemplatives, women's Hindu and Jain ascetic
+   writing. if the axis is absent there too, the who-held-the-pen
+   explanation fails and something else is going on.
+
+2  the best-documented case, read directly. Frisbie 1967 on Kinaaldá
+   is 400+ pages with song texts and a top primary-data rating. if
+   calibration content is absent from an ethnography that thorough,
+   "undocumented rather than absent" is much weaker than a thin
+   record makes it look.
+   caveat that cuts the other way: Kinaaldá is a first-menses
+   puberty rite, not a cyclic practice. absence of a cyclic
+   calibration axis in a non-cyclic rite is weak evidence about a
+   cyclic axis. run the test, then discount it accordingly.
 ```
 
 **null says.** An empty search bounds the search, not the question —
 same discipline as Q1. State where you looked, state that you stopped,
-and do not keep searching for an absence.
+and do not keep searching for an absence. Note that this null is now
+easier to reach honestly than it was, because the scope correction
+above removes the explanation that used to absorb it.
 
 **cost.** Desk work, plus someone who reads the source languages. The
 `[lead]` tags in the catalog are load-bearing here: none of those
@@ -783,6 +877,14 @@ that should not be run by this repo alone. They need someone inside
 the tradition, and the correct outcome may be that the knowledge is
 confirmed to exist and is deliberately not written down here. That is
 a successful result, not a failed one.
+
+dim27 makes this concrete rather than abstract. The documented cases
+are Navajo and Wabanaki — living communities, and in the Wabanaki case
+the source is the community's own 2025 publication. That is a
+community already speaking about its own practice, on its own terms
+and its own schedule. The first move is reading what they chose to
+publish, not arriving with a question about a gap in someone else's
+catalog.
 
 The tension with the catalog's frame is real and is left standing. The
 naming-is-the-intervention case was built on proprioception, where

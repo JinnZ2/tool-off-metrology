@@ -537,10 +537,17 @@ EXPENSIVE, RUN LAST
   A1-c   trained vs untrained. recruitment
   A2-b   the HAVS gradient. field recruitment and a real sample
 
+DESK WORK, CHEAP, DO EARLY
+  G3 Kinaaldá probe   read Frisbie 1967 directly and ask whether
+         calibration content is present in the best-documented case
+         there is. cheap, decisive in one direction, and discounted
+         in the other because the rite is non-cyclic. one library
+         request
+
 NOT THIS REPO'S TO RUN ALONE
-  G2/G3  the archival search. needs someone inside the tradition,
-         and a correct outcome may be that the knowledge is confirmed
-         and deliberately not written here
+  G2/G3  the rest of the archival search. needs someone inside the
+         tradition, and a correct outcome may be that the knowledge
+         is confirmed and deliberately not written here
 ```
 
 Two of these earn their priority for reasons beyond their topic.
@@ -604,12 +611,9 @@ thing §2 says to log rather than apologize for.
 
 ### and the second failure of the same remedy
 
-`unnamed-instruments.md` G3 names the other one, and it is sharper:
-documentation requires holding both the capacity and the pen, and
-where those do not coincide in the same people an entire axis goes
-missing from the record. The catalog's phrasing is the one to keep —
-the gap is not evidence the knowledge doesn't exist, it is evidence
-about who got to write.
+`unnamed-instruments.md` G3 names the other one: documentation
+requires holding both the capacity and the pen, and where those do not
+coincide in the same people the record reflects the documenters.
 
 Two distinct failures, and they compose:
 
@@ -620,19 +624,44 @@ absent scribe    what never gets written down at all is selected by
                  who holds the pen, not by what is worth keeping [inf]
 ```
 
-This is the untrained-baseline principle one layer up, and it makes a
-third instance of the §1 inversion — the standard instrument reading
-backwards. Self-report is corrupt where it matters; tool-on metrics
-mask atrophy; attention counting scores the novice higher; and the
-documentary record scores an undocumented capacity as absent when the
-absence is about literacy and authority rather than about the capacity.
+**Correction, applied rather than argued.** An earlier version of this
+section called that a fourth instance of the §1 inversion — the
+documentary record scoring a real capacity as absent, alongside
+self-report, tool-on metrics and attention counting. dim27 does not
+support it at that strength, and the hedge attached at the time ("the
+weakest of the four and the most rhetorically attractive") turned out
+to be the accurate part.
 
-Stated carefully, because this is where §7's seam would open: the
-convergence is across four measurement channels, all showing an
-instrument that reads a real competence as missing. That is
-convergence. It is not a law, and the fourth instance is historical
-rather than experimental, which makes it the weakest of the four and
-the most rhetorically attractive. Keep those facts adjacent. [inf]
+What broke it: the other three inversions have an anchor. Pilots
+demonstrably failed the sim; unaided ADR demonstrably fell; experts
+demonstrably sample sparsely under a model. In each case the capacity
+is independently established and the instrument is then shown reading
+it backwards. The documentary version has no such anchor — a thin
+record is consistent with a capacity that was never written down and
+equally consistent with one that was never there. The catalog now
+states this directly: the gap is not itself evidence the knowledge
+existed. It is evidence about who wrote.
+
+So the honest status:
+
+```
+absent-scribe as a mechanism            holds, well-supported  [inf]
+absent-scribe as a fourth inversion     conditional. requires the
+                                        capacity established by some
+                                        route other than the record's
+                                        silence, and then found
+                                        missing from the record  [open]
+```
+
+A second check pulls the same direction. The catalog's standing
+counter-case — konenki reported difference vanishing under skin
+conductance — shows a large, replicated cross-cultural difference that
+lived entirely in reporting. Applied here: a capacity absent from a
+record may also be absent from the practice, and the two are not
+separable by reading the record harder. [lit]
+
+Convergence across three channels stands and is what §2 asks for.
+Three is the number. [inf]
 
 ---
 

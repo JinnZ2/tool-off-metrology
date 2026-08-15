@@ -53,6 +53,25 @@ tell. Mark it, don't inherit it. (Contested strong claims — e.g.
 7,000-year oral-accuracy figures — are not leaned on; the method-of-
 loci trained gap is the solid ground.)
 
+**Standing counter-case — required, or this principle is
+unfalsifiable.** A strong cultural-difference finding can live entirely
+in *self-report* and fail under *objective instrumentation*. The
+worked case: Lock's konenki research found Japanese women reporting hot
+flashes at roughly a third the North American rate, with no word in the
+language uniquely denoting one. Then Melby's follow-up found Japanese
+reporting had roughly **doubled** in twenty years alongside dietary
+westernization and biomedicalization — the difference was dynamic, not
+essential. And the Hilo Women's Health Study, measuring hot flashes by
+**skin conductance**, found no ethnic difference in the objective
+measure. [lit]
+
+So: some apparent trained-carrier effects will be *attention and
+reporting* differences rather than *threshold* differences. Not all —
+the method-of-loci gap is real and objectively measured. But every
+entry claiming a trained-carrier advantage must state which kind it
+is, or say that it doesn't yet know. Blinded/objective testing is the
+only arbiter, which is why each entry carries a discriminator test.
+
 ---
 
 ## Column A — transducers (physical detectors)
@@ -305,16 +324,56 @@ Framed as *where to look and why the record is thin* — NOT as claims
 the practices below are attested. Leads for keyboard research with
 someone who knows the source traditions, not assertions.
 
-**G1. Neurosteroid state → sensor sensitivity, read as instrument.**
-The mechanism is established neuroendocrinology (G-C note above). What
-is missing is anyone studying it the way the operator uses it: not
-"am I impaired today" (performance frame, found null) but "which
-channel is at what sensitivity today, schedule onto it accordingly."
-Two axes exist — the validated wake cycle and this slower
-neurosteroid one — and the second has been measured, if at all, only
-as a performance disruptor, never as a trained calibration curve.
-Same untrained-baseline problem: measured as deficit, in a population
-that doesn't run it as an instrument. **Should be studied.** [gap]
+**G1. Neurosteroid state → sensor sensitivity, read as instrument —
+SHARPENED against dim23 (primary-verified, Wave 4).**
+
+*What is now established (not a gap — this part is solid):*
+- **The driver is rate of change, not level.** Rapid progesterone/ALLO
+  decline produces the effect; gradual decline does not (rodent,
+  Doornbos 2009). Human kinetics match: controls' progesterone wanes
+  gradually over ~8 days pre-menses; symptomatic women hold stable
+  then drop sharply at ~3 days (Lovick 2017). Causal test closes it —
+  dutasteride blocked 5α-reductase conversion, *stabilizing* ALLO while
+  progesterone still fluctuated, and symptoms fell (Martinez 2016,
+  randomized double-blind crossover). The **gradient** is the variable.
+  [lit, high] — note this converges with the operator's own term
+  ("the chemicals come up in gradients"), stated before the file.
+- **Sensitivity to normal change is the model, not abnormal levels.**
+  Hormone and ALLO levels are normal in affected women; Schmidt 1998
+  (NEJM) is the clean demonstration — GnRH suppression removed
+  symptoms, estradiol/progesterone add-back re-triggered them *only*
+  in affected women, not in controls. Field's phrasing: a
+  neurobiological sensitivity to natural and normal change, not an
+  imbalance. **This is the calibration layer's premise, established.**
+  [lit, high/consensus]
+- **Gain is ALTERED, not simply raised or lowered — it can invert
+  across the range.** Affected women are *less* sensitive to low /
+  subphysiological GABAergic doses and *more* sensitive at luteal-range
+  and above, with paradoxical worsening (Timby 2016 saccadic-eye-
+  velocity; Bäckström 2014). Refinement to the calibration layer:
+  "sensitivity is higher today" is too coarse — the response curve can
+  change *sign* depending on where in the range you are. [lit, high for
+  "altered"; med for exact δ/α4 subunit mechanism, partly rodent]
+
+*The residual gap (now much sharper than "unstudied"):*
+All of the above was learned by studying **disorder**. Every
+instrument was pointed at the pathological end. Nobody has run the
+same instrumentation on **healthy trained carriers deliberately
+reading their own gradient** — not "am I impaired today" (performance
+frame, null) but "which channel is at what sensitivity right now,
+schedule onto it accordingly." The mechanism is no longer in question;
+the trained-use case has simply never been measured. Same
+untrained-baseline problem, one level up: the science exists, aimed
+only where the phenomenon is a symptom. **Should be studied.** [gap]
+
+*Discipline note carried from dim23:* the famous "75% symptom
+reduction" (sepranolone) is a post-hoc subgroup, n=60 of 126, and the
+larger confirmatory trial failed its primary endpoint; the compound is
+out of production. Brexanolone's placebo-adjusted effect was −2.5 to
+−5.5 HAM-D despite "dramatic" framing, and FDA approval was withdrawn
+April 2025. The memorable number is repeatedly the one that didn't
+replicate — check before citing any of this field's headline figures.
+[lit]
 
 **G2. Contemplative traditions as prior description of G1.** The most
 likely place calibration knowledge is already described is
@@ -331,33 +390,73 @@ psychophysics never samples.
   open; source literature not known well enough here to claim either
   way. [lead, not attested]
 
-**G3. Matriarchal / women-held contemplative and healing practice.**
-The traditions most likely to hold the G1 knowledge are the *least*
-textualized, and that is not a coincidence — it is the mechanism.
-- *Menstrual-seclusion / red-tent observances:* recorded by
-  (usually outside, usually male) ethnographers as taboo or hygiene.
-  Whether the withdrawal also encodes a structured cycle-keyed
-  internal-observation window is exactly what that framing could not
-  see. Calibration content, if present, is undocumented rather than
-  absent. [lead, not attested]
-- *Curandera / midwife / herbalist lineages:* women's healing lines
-  that necessarily tracked hormonal state closely, transmitted
-  apprentice-to-apprentice — but documented as *pharmacology* (plant
-  for condition), almost never as *perceptual training*. Same gap. [lead]
+**G3. Matriarchal / women-held practice — REWRITTEN against dim27
+(primary-verified, Wave 4). The category does not behave as one thing;
+sort before searching.**
+
+*Refuted as historical carriers — do not use as leads:*
+- **Red Tent (contemporary movement).** The seed text is a 1997 novel;
+  its author states plainly there is no historical evidence biblical
+  women used a menstrual tent, and that she invented it as plausible.
+  Research verdict: invented tradition (Hobsbawm sense) — participants
+  commonly believe they are reclaiming an ancient practice, and that
+  belief is false. It does real social/psychological work; it carries
+  no historical knowledge. [lit, high confidence]
+- **Generic "moon lodge" of the Goddess/spirituality milieu.** Modern
+  pan-Indian syncretism reconstructed from popular teachers and audio
+  materials; practitioners themselves concede they could not find
+  source information. Not a documented single tradition. [lit, med-high]
+- *(Adjacent folklore, refuted, not claimed here but worth knowing:)*
+  menstrual synchrony. Wilson's three statistical errors; prospective
+  nulls; the largest dataset (Clue × Oxford, 360 pairs) found cycles
+  **diverge** — mean onset difference 10 days → 38 days. Persistence of
+  the folk belief is explained as probability misperception. [lit]
+
+*Documented and real — these are different objects from the above:*
+- **Navajo Kinaaldá.** Gold-standard primary ethnography (Frisbie 1967,
+  400+ pp with song texts; eHRAF primary-data rating 5). Note: a
+  *puberty* rite (first menses), community-affirmative — structurally
+  unlike both Dogon huts and modern Red Tents. [lit, high]
+- **Wabanaki Strawberry Ceremony / moon lodge.** First-menses seclusion
+  with teaching transmitted by mothers, grandmothers, aunts. Source is
+  a community/revival publication (2025), not historical ethnography —
+  treat as living/renewed tradition with plausible roots. [lit, med]
+
+*The tension that keeps the calibration question open (state both):*
+- **Against:** the best hormone-verified menstrual-hut case in the
+  ethnographic record — Strassmann's Dogon work, 93 women, urinary
+  steroid assays, 86% hut-use during confirmed menses — is interpreted
+  by its own investigator as **paternity surveillance / honest
+  signaling under sexual conflict**, not women's rest or instruction.
+  The prior framing here ("calibration content undocumented rather than
+  absent") does not survive contact with this case. [lit, high]
+- **For / limiting:** Buckley & Gottlieb 1988 is the canonical
+  anthropological position — "the menstrual taboo as such does not
+  exist"; rules vary cross-culturally with opposite purposes and
+  meanings, and the possibility that such practices *enhance* rather
+  than suppress women's influence has generally been ignored by
+  investigators. [lit, high]
+- **Corrected status of G3:** not "knowledge likely present but
+  undocumented." Rather — *meanings are locally specific and the
+  question cannot be settled at the level of "menstrual seclusion" as
+  a category.* Search tribally-specific documented practice, not the
+  category. [inf]
+
+*Still standing as leads (untouched by dim27):*
+- *Curandera / midwife / herbalist lineages:* documented as
+  *pharmacology* (plant for condition), almost never as *perceptual
+  training*. Gap intact. [lead]
 - *Female monastic branches* (bhikkhunī, Christian contemplative,
-  Hindu/Jain women ascetics) produced real contemplative literature,
-  but two filters compressed what survived: practices modeled on the
-  male template, and preserved/translated writing skewed male. Even
-  where women mystics wrote, the cycle-keyed calibration question is
-  not what got carried forward. [lead]
-- **The structural finding (this is the attested part):** the
-  knowledge and its documentation came apart *precisely on the axis
-  that belongs to women, in traditions run by men*. The gap is not
-  evidence the knowledge doesn't exist. The gap is evidence about who
-  got to write. This is the untrained-baseline principle one layer up:
-  documented by whoever holds both the capacity and the pen, and a
-  whole axis goes missing when those don't coincide in the same
-  people. [inf, well-supported]
+  Hindu/Jain women ascetics): real contemplative literature, but
+  practices modeled on the male template and preserved/translated
+  writing skewed male; cycle-keyed calibration is not what got carried
+  forward. [lead]
+
+*The structural point, now narrower:* where a capacity's carriers and
+its documenters are different people, the record reflects the
+documenters. That still holds and is well-supported. What dim27 kills
+is the stronger version — that the gap is *itself* evidence the
+knowledge existed. It is not. It is evidence about who wrote. [inf]
 
 ---
 

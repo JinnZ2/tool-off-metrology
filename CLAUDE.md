@@ -99,6 +99,16 @@ detector, and its edge is the uncoalesced layer instead. Find the
 entry's actual failure boundary rather than forcing every entry into
 the transducer shape.
 
+## Trained-carrier claims say which kind
+
+An entry claiming a trained carrier outperforms the general population
+states whether that is a *threshold* difference or a *reporting*
+difference — or states that it does not yet know. The catalog's
+konenki counter-case is why: a large replicated cross-cultural
+difference that moved with diet over twenty years and vanished under
+skin conductance. Only objective instrumentation separates the two, so
+a claim resting on what someone says cannot tell them apart.
+
 ## Carrier words before paraphrase
 
 When a claim is carried from an operator, record their words verbatim
