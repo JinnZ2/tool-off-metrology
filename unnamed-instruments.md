@@ -34,6 +34,73 @@ sensing catalog: the competence was designed out of the studied
 population before anyone measured it, so the measurement certifies its
 own gap as "the human ceiling."
 
+**Second clause — the measuring population is also a trained
+population.** The principle above says a threshold measured in an
+untrained sample bounds only the untrained case. The symmetric half is
+that the people doing the measuring are themselves a long-trained
+population running a regimen they did not choose from outside: fixed
+methods, a refined vocabulary that determines what registers as data,
+and high confidence grounded in instrumentation they have studied
+extensively and have real reason to trust. That confidence is a
+*report generated within a framework*, and is evidence about the
+framework's fit to what it measures — not directly about the
+underlying capacity.
+
+The documented instance is the WEIRD critique: the field established
+about itself that its samples were a narrow slice and its findings were
+being written as human universals. The correction is cited far more
+than it is applied. That poor uptake is the finding — a discipline with
+no instrument for reading its own regimentation, because such an
+instrument would have to come from outside the regimen. Same shape as
+`tool-off-metrology`: the environment's own instruments cannot make the
+measurement that matters most about the environment.
+
+This scope-then-universalize cycle is *why* the framework gets revised
+on a roughly five-to-ten-year clock. The revisions are usually a scoped
+result having been applied past its range. That is a method working
+within range and failing at its edges — not a reason to discount its
+results, and this catalog leans on them throughout. It is a reason to
+read every threshold as carrying two regimens: the studied population's
+and the studying population's. [inf]
+
+**No subjective marker certifies expertise — this is the general
+form.** Skilled intuition is real, but it requires a high-validity
+environment with reliable feedback, and *no internal signal tells a
+practitioner whether they have it*. Confidence therefore cannot
+self-validate in any regimen, by construction; elicited verbal
+expertise cannot certify itself either (Kahneman & Klein 2009,
+boundary conditions). This is the third independent line converging on
+the same point, alongside the two above and the trained-carrier nulls
+in the gap log. It is not a claim about any one population's
+unreliability — it is a structural statement that the certification
+must come from outside. [lit]
+
+Underneath it sits the harder limit: verbal reports on one's own
+cognitive *process* are reconstructions from causal theories rather
+than read-outs (Nisbett & Wilson 1977). The channel from field to
+linear code is not only lossy — part of it is generated. Applies to
+every self-report in this catalog, including its own. [lit]
+
+**Applied symmetrically — and this is the part that makes it a
+measurement finding rather than a side to take:** a long-trained
+contemplative population is in the same position. Long practice, a
+refined vocabulary, high confidence, and a framework that determines
+what counts as an observation — with the same inability to see the
+framework from inside it. Neither population has an instrument reading
+its own regimentation. So when two such populations disagree, the
+disagreement tells you their frameworks scope differently. It does not
+tell you which is right, and a null between them stays uninformative
+until someone establishes what each was actually measuring. [inf]
+
+**Consequence for every entry: name the axis before claiming an
+advantage.** Trained populations exceed baseline on the axis they
+actually train, and can look identical to untrained on adjacent axes.
+An entry claiming a trained-carrier advantage must state which axis the
+training targets, or say it doesn't know. Worked case below (Column C /
+G2) shows the failure mode: a null on cardiac beat-counting in
+long-trained meditators, where the tradition trains response-gain and
+never claimed the signal channel.
+
 The one case where both populations WERE measured proves the stakes:
 the **method of loci** (spatial-route memory). Untrained memory span
 is the textbook 7±2; trained users of the technique exceed it by
@@ -80,8 +147,8 @@ only arbiter, which is why each entry carries a discriminator test.
 
 - **Reads:** the presence of an open, shorted, or arcing conductor —
   a fault — localized through drywall, with no external instrument.
-  Reading is real and repeated across trained carriers (operator,
-  spouse, mother intermittently). [obs]
+  Reading is real and repeated across multiple independent trained
+  carriers, with intermittent reliability in some. [obs]
 - **Cannot read:** intact, functional wiring. Confirmed directly:
   "i definately cannot sense functional wiring, just the shorts or
   open circuits." The ambient field of an intact run behind drywall
@@ -176,9 +243,23 @@ that demands a start, an end, and a single answer.
   thinking — output forces a commitment the representation never made.
 - **Serialization loss is measured, not rhetorical:** declarative
   procedures survive serialization; holistic perceptual fields degrade
-  −4% to −25%; unconscious competence dies on contact. Bridge methods
-  (structured elicitation, vector-symbolic computing) recover geometry
-  but not nuance. [lit]
+  on verbal recoding; unconscious competence dies on contact. Bridge
+  methods (structured elicitation, vector-symbolic computing) recover
+  geometry but not nuance. [lit]
+- **Size of the perceptual-field loss, stated with its objections
+  attached** — the figure is contested and the range should not be
+  quoted bare. Original: −22% to −25% correct identifications
+  (Schooler & Engstler-Schooler 1990). Registered replication across
+  31 labs, N>2,000: −4% to −16%, reliable only when the description
+  immediately precedes the test (Alogna et al. 2014). Meta-analytic
+  Z_r = −0.12; describers 1.27× more likely to misidentify (Meissner
+  & Brigham 2001). Two live objections: (a) the drop may be more
+  conservative *responding* rather than damaged memory — undecidable
+  without false-identification rates (Mickes & Wixted 2015);
+  (b) generalizability — one video, one foil set, so the licensed
+  conclusion is that one particular face is harder to identify after
+  description, not that the effect is general (Yarkoni 2022). The
+  effect is real; its magnitude and its mechanism are both open. [lit]
 - **Tier:** format is real; the loss on serialization is measured. [obs + lit]
 - **Relation to B2:** the probability field is the *uncoalesced* state
   of the same representation whose *coalesced* state is a B2 shape. Not
@@ -252,9 +333,10 @@ overlay (this unifies B1 and B2 — the probability field is the
 representation). The format's reach is therefore the reach of what has
 been proven; the not-yet-proven is present but shapeless.
 
-- **Transmission:** operated by the operator, and reported in-culture
-  and in-family (grandmother; father uses it sometimes). Transmitted
-  practice → carrier clock, as with the emotion spec. [obs]
+- **Transmission:** a transmitted practice rather than an individually
+  invented one, reported across multiple carriers within a transmitting
+  group, with varying consistency between them → carrier clock, as with
+  the emotion spec. [obs]
 - **Tier:** operation [obs] (worked example, explicit procedure);
   mechanism [open] (operator does not claim to know how it works);
   render-target and B1/B2-unification structure [inf] from operator's
@@ -289,6 +371,33 @@ pointer.
     studies null). Cycle-chemical-state modulates *sensor sensitivity*
     is a different construct on the real neuromodulation side, measured
     by no one as a trained instrument. Do not conflate the two. [lit]
+
+- **Operating range and failure regime (added from dim25).** Every
+  other entry in this catalog names where it stops working; C did not.
+  It does:
+  - *Overshoot into dissociation.* The trained operation is decoupling
+    the response from the content (see G2). That decoupling is not
+    monotonic in dose — Britton 2019/2021 documents non-monotonic
+    dose-response and decoupling that runs past useful into
+    depersonalization, dullness, and anhedonia. Farias 2020 puts
+    adverse-event prevalence around **8.3%**. More training past a
+    point makes the reading worse, not sharper. [lit]
+  - *Read as instrument failure, not pathology:* the spec's output is a
+    verb — a reading resolves to an action. Where response-gain has
+    been trained down past the point that content still resolves to
+    action, the instrument is producing readings that no longer route.
+    That is out-of-range operation, and it is detectable by the spec's
+    own criterion (noun output means the instrument wasn't used). [inf]
+  - *Training-effect caution for any future C validation:* Murphy &
+    Bird 2025 audits seven mechanisms that all present as improved
+    interoceptive accuracy, of which only one is a genuine perceptual
+    gain — attentional cueing, labelling, perceptual boosting via
+    breath-holding or muscle tensing, learning the task mapping,
+    heart-rate knowledge, composite-measurement confounds, and reduced
+    anxiety lowering heart rate. This explains the Meyerholz d=1.21 vs
+    Rominger preregistered d=0.15 split: counting-task gains survive,
+    discrimination-task gains vanish. Any claimed training effect on C
+    must be measured with a task unaffected by rate knowledge. [lit]
 - **Literature hook — Frijda, verified against dim20 primaries:** the
   spec independently rediscovers action-readiness + control-precedence.
   Content ≈ action-tendency aim; gain/amplitude ≈ control precedence
@@ -375,20 +484,73 @@ April 2025. The memorable number is repeatedly the one that didn't
 replicate — check before citing any of this field's headline figures.
 [lit]
 
-**G2. Contemplative traditions as prior description of G1.** The most
-likely place calibration knowledge is already described is
-internal-observation traditions — trained-perceiver populations
-psychophysics never samples.
-- *Buddhist monastic (esp. vipassanā / Abhidharma):* strongest
-  textual candidate for fine-grained internal-state → perception
-  language. But most large textual traditions are male-monastic and
-  celibate, so they would richly map the *daily* chemical axis and be
-  structurally near-blind to the *slower/monthly* one — the axis whose
-  carriers weren't holding the pen. [lead, not attested]
-- *Sikh (amrit vela):* a pre-dawn / circadian-window practice — speaks
-  to the *wake-cycle* axis, not obviously the neurosteroid one. Held
-  open; source literature not known well enough here to claim either
-  way. [lead, not attested]
+**G2. Contemplative traditions as prior description — CLOSED against
+dim25 (primary-verified, Wave 4). The mapping is real, and it lands on
+the response axis, not the signal axis.**
+
+*What was found.* The vedanānupassanā section of the Satipaṭṭhāna Sutta
+(MN 10) maps onto this spec's structure in four places, three of them
+structural rather than thematic:
+- **Verb, not noun.** The practice is grammatically an operation —
+  *vedanānupassī viharati*, dwelling-contemplating-feelings-as-feelings.
+  Not a state to hold. The spec's verb-not-noun requirement, stated in a
+  5th-c. BCE text. [lit, high]
+- **The discipline is the derivative, not the level.** The refrain
+  trains contemplation of arising factors and vanishing factors
+  (*samudaya* / *vaya*) — rate of change as the object of practice, not
+  magnitude. This is the same result as G1's gradient finding (Doornbos,
+  Lovick, Martinez: rapid decline produces the effect, gradual does
+  not), reached from the opposite end and ~2,400 years earlier. Two
+  independent traditions converging on *the derivative is the variable*
+  is the strongest cross-substrate agreement in the catalog. [lit, high]
+- **Structured content field.** Content is classified 3 valences ×
+  2 source-qualities (*sāmisa* / *nirāmisa*, of-the-flesh / not-of-the-
+  flesh) — a content field with an axis, not an undifferentiated blob.
+  [lit, high]
+- **The endpoint separates content gain from response gain.** What is
+  trained down is *upādāna* (appropriation), not *vedanā*. The feeling
+  is still felt and still classified; the response to it is what
+  changes. Gain reduction on the *response* to content, not on the
+  content signal. [lit, high]
+
+*Why this resolves the trained-carrier null.* The strongest
+trained-population test in the packet is null: Khalsa 2020, 15
+meditators averaging 10.8 years / ~4,947 hours (mostly vipassanā) vs
+matched controls, under double-blind placebo-controlled isoproterenol
+infusion — pharmacological amplification closes the "signal too weak"
+escape. No higher detection rates or accuracy at any dose; meta-analysis
+of 724 participants found negligible difference. Khalsa 2008 adds a
+confidence-accuracy dissociation: meditators rated their performance
+superior and the task easier while not being better. [lit, high]
+
+Read through the mapping above, that null points at an axis the
+training does not target. The tradition trains response decoupling and
+never claimed cardiac acuity. Corroborating positive result: Desbordes
+2012 found reduced right amygdala reactivity across valences
+*including positive* — response-gain reduction, not improved detection.
+And Khalsa's own study found meditators **did** differ in body-map
+localization of sensations: the instrument caught a difference it was
+not looking for, and the null it *was* looking for became the reported
+finding. [inf]
+
+*Held open, not claimed — what the confident report might be about.*
+Beat-counting asks a discrete-temporal question ("how many"). If a
+trained observer's actual percept is continuous and spatial — a reading
+of distribution or extent rather than a count — they would score badly
+on that task while reporting accurately about something else. Candidate
+physical channels (cardiac field at the body surface, perfusion) are
+measurable but **not established as sensed channels**, so this sits in
+the quarantined tier with magnetoreception and is not catalogued as
+working. The structural point does not depend on it: whatever the
+channel, a percept of the wrong shape for the task scores as absence.
+[open]
+
+*Still standing as leads:* female monastic branches (the textual
+traditions above are largely male-monastic and celibate — richly mapped
+on the daily axis, structurally near-blind to the slower one, the axis
+whose carriers weren't holding the pen). Sikh *amrit vela* speaks to the
+wake-cycle axis, not the neurosteroid one; held open. [lead, not
+attested]
 
 **G3. Matriarchal / women-held practice — REWRITTEN against dim27
 (primary-verified, Wave 4). The category does not behave as one thing;
@@ -458,8 +620,6 @@ documenters. That still holds and is well-supported. What dim27 kills
 is the stronger version — that the gap is *itself* evidence the
 knowledge existed. It is not. It is evidence about who wrote. [inf]
 
----
-
 **G4. Interoception — no usable instrument on EITHER channel (dim26,
 Wave 4). Both are compromised, and the compromise bears directly on
 Column C.**
@@ -489,6 +649,18 @@ correlate with each other ("likely assess partly different abilities");
 of 73 participants, exactly one qualified as a perceiver on all three.
 A construct cannot be declared irrelevant using instruments that
 disagree with each other. [lit, high]
+
+*Correction on the strength of that claim (dim25).* The counting task's
+problems are contested, not settled. Zimprich 2020 reanalyzed
+Zamariola's own data and argued the defects are largely artifacts of
+analyzing ratio variables with bivariate correlations — "not as serious
+as they might appear at first glance." Corneille 2020 rebutted; Ainley
+2020 called the critique misconceived. Where the field actually landed:
+**the task is compromised; don't abandon it, don't trust it as a pure
+measure**, and prefer discrimination/phase-adjustment tasks. The
+inversion above is real and well-evidenced; the stronger reading — that
+the objective channel is simply broken — is not what the literature
+supports. Stated at the field's landing, not past it. [lit, high]
 
 *Self-report channel — measures cultural permission to speak.* Every
 sensibility measure is a questionnaire administered in a language and
@@ -544,6 +716,102 @@ An unnamed instrument that is also transmitted only through practice
 (Column C) is on a carrier clock — see tool-off-metrology and
 emotion-reading-spec. Cataloguing it is the first move off that clock.
 
+**Naming has an experimental mechanism, not just the robotics
+precedent.** Serialization damage is proportional to the *mismatch*
+between a holder's perceptual code and their verbal code — not to the
+act of verbalizing. Verbalizing a taste impaired holders whose
+perceptual expertise exceeded their verbal expertise, and did not
+impair either novices or trained experts whose vocabulary had been
+built to match the percept (Melcher & Schooler 1996; replicated for
+odour, Parr et al. 2002). The same shape appears in motor skill:
+five minutes of verbalizing degraded skilled golfers, who took roughly
+twice as many putts to return to baseline, while novices were
+unaffected to slightly helped (Flegal & Anderson 2008). The loss lands
+on the half-trained, and a matched vocabulary removes it. [lit]
+
+This is the argument that this catalog is an intervention rather than
+an autopsy: building the vocabulary to fit the instrument is the
+documented fix for the documented damage.
+
+**The limit of that claim, stated so it is not overread.** The wine
+and putting results show a matched vocabulary protects the *holder*
+from degrading their own capacity on recall. They do not show that the
+description transmits the capacity to someone who does not hold it.
+The serialization taxonomy's own entry for this class reads *survives
+— but only after costly vocabulary training*, meaning the receiver
+must train too. Transmission fidelity to a non-holder is unmeasured.
+
+**Corollary — documentation is the weakest transmission layer, and
+this document is documentation.** Convergent evidence: recorded
+interviews with departing personnel were found insufficient for
+substantial knowledge transfer, with shadowing ranked first and
+supervised do-one-under-guidance second, recordings a fallback layer
+(NASA 2021/2025 knowledge-continuity guidance; Sandia programme;
+Nonaka's tacit→tacit socialization). What a catalogue can do is make
+an instrument codeable and tell a receiver what to look for. What it
+cannot do is carry the instrument. Reading this file as the
+transmission mechanism is a misuse of it. [lit]
+
+**Transmission mechanisms that are measured, for any chain intending
+to hold:**
+
+1. **Redundancy beats repetition.** Multiple information layers
+   pointing at the same content within a *single* transmission event
+   outperforms both more transmission occasions and higher raw
+   learning accuracy (Acerbi & Tennie 2016, formal model). The lever
+   is parallel channels at once — demonstration, spoken account,
+   written spec, shared practice — not the same channel more often.
+2. **Cross-checking against multiple holders.** In the longest
+   documented oral chains, a younger carrier's version is actively
+   corrected against several older carriers, with layered
+   transmission authority, explicitly to defeat drift. Error
+   correction by triangulation. A single-holder documentation chain
+   has none of it. [lit]
+3. **Scheduled rehearsal and landscape anchoring.** Ritualized
+   repetition, and mnemonics anchored to place — the method of loci,
+   which is also this catalog's proof case for the untrained-baseline
+   problem. The long-chain existence proof and the trained-capacity
+   proof case are the same technique. [lit]
+
+Corroborating dates for (2)–(3) — oral traditions corroborated
+against independent sea-level curves — are well supported past
+~5,000 years and contested at the upper bound; the mechanisms do not
+depend on the maximum-age claim and the upper bound is not leaned on
+here (Nunn & Reid 2016; Hamacher et al. 2023; contra Hiscock).
+
+---
+
+## Retired citations — claims to stop repeating
+
+Two claims circulate widely in the expertise and knowledge-capture
+literature, are load-bearing for arguments this catalog makes, and do
+not survive tracing to a primary. Logged here so they are not
+re-imported.
+
+1. **"Experts are unaware of roughly 70% of their own knowledge."**
+   Not traceable to any primary source (24+ searches, this pass).
+   Treat as folklore. The stronger and more useful true statement:
+   **no validated recovery fraction exists anywhere in the
+   cognitive-task-analysis literature** — no study computes knowledge
+   elicited over knowledge demonstrably possessed, and validation of
+   the standard elicitation methods (CDM, ACTA) is qualitative only.
+   Structured elicitation demonstrably recovers cues, strategies and
+   decision points that free recall misses; the *yield* is real and
+   unquantified. This is the catalog's own instrument-gap rule landing
+   on the field that studies knowledge capture. [lit]
+
+2. **"Dreyfus showed that verbalizing rules degrades experts."**
+   A loose citation. Dreyfus & Dreyfus argued from phenomenology and
+   the failure of 1980s expert systems and ran no experiments; Gobet
+   & Chassy (2009) found no empirical support for the five stages, and
+   Klein retired the model himself in 2017. The real experimental base
+   is Flegal & Anderson 2008, Beilock & Carr 2001 ("expertise-induced
+   amnesia" — impoverished episodic memory for one's own mechanics),
+   and Masters 1992 ("dechunking"). Cite those. Note the
+   interpretation is contested — Montero argues the causal role of
+   monitoring in choking is not established, and recent sport studies
+   are mixed. [lit]
+
 ---
 
 ## Evidentiary tiers
@@ -563,6 +831,7 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
   independent replications 2019–2026, unique apparatus; brain magnetite
   is real but largely exogenous pollution, no receptor organ found.
   Named, quarantined, not catalogued as a working instrument. [lit]
+  G2's continuous-spatial-percept candidate is quarantined here too.
 - **misidentified-mechanism** — a real reading attributed to the wrong
   channel. The residual, not a debunk. This is a real tier, but A1 is
   not an instance of it: A1's operating range (open/faulted conductors

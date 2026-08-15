@@ -58,6 +58,27 @@ either way. Where a design does use self-report — G1-a's prediction
 step — the report must be the *predictor* and something instrumented
 must be the *outcome*.
 
+### 1b. Name the axis the training targets, before testing it
+
+A trained population exceeds baseline on the axis it trains and can
+look identical to untrained on an adjacent one. So a trained-vs-control
+protocol must state, in advance, which axis the training is supposed to
+move — or state that it does not know.
+
+The worked failure is in the catalog at G2: long-trained meditators,
+~4,947 hours, tested on cardiac beat-counting under pharmacological
+amplification, null at every dose. Read as "the training does not
+sharpen interoception." Read against what the tradition actually
+trains — decoupling the *response* from the content, not the content
+signal — the null lands on an axis nobody claimed. [lit]
+
+Applied to the protocols here: A1-c, A2-a and A3-a all compare trained
+carriers to controls, and each must name its axis before running.
+A1-c's axis is fault detection, not field sensitivity in general.
+A2-a's is defect discrimination through a tool, not tactile acuity.
+A3-a's is flux detection at low differentials, not thermal comfort.
+Write it down; a null on an unnamed axis is unreadable afterward.
+
 ### 2. Method of loci is the positive control
 
 Before trusting any protocol here to detect a trained/untrained gap,
@@ -763,7 +784,41 @@ the protocol on it.
 
 **cost.** Low apparatus, high discipline, months. Carrier-bound.
 
-### G2/G3-a. Where to look, and what would count
+### G2 is closed — what that leaves
+
+The catalog closes G2: the vedanānupassanā mapping is real, it is
+structural rather than thematic, and it lands on the response axis.
+There is no search left to run there, and this document should not
+pretend otherwise.
+
+Two things survive as work:
+
+```
+the female-monastic lead   the textual traditions that carry the
+                           mapping are largely male-monastic and
+                           celibate — richly mapped on the daily
+                           axis, structurally near-blind to the
+                           slower one. that lead is untouched by the
+                           closure and rolls into the G3 search
+                           below                              [lead]
+the quarantined candidate  G2's continuous-spatial-percept
+                           possibility — that a trained observer's
+                           percept is of distribution or extent
+                           rather than a count, and so scores as
+                           absence on a counting task. filed with
+                           magnetoreception, not catalogued as
+                           working, and testable only after G4-a
+                           produces a task that is not a count [open]
+```
+
+The second is worth one line of design attention because it is
+cheap once G4-a exists: if the percept is of the wrong *shape* for
+the task, a discrimination or localization measure should show the
+difference the counting task missed. Khalsa's own study already found
+a body-map localization difference it was not looking for. That is a
+lead, not a result. [inf]
+
+### G3-a. Where to look, and what would count
 
 Not experiments. Searches — and a search needs a stopping rule and a
 criterion as much as an experiment needs a null.
@@ -896,18 +951,78 @@ Then look directly at the corner cases: high-a/low-b against
 low-a/high-b, and see which the standard task ranks higher.
 
 **null says.** No negative partial means invalidity without inversion.
-G4's gap stands untouched — the instrument is still unusable — but the
-`[lit:high]` on the inversion framing in §1 comes down to `[inf]`, and
-the detector list keeps three inversions rather than gaining a fourth.
+The `[lit:high]` on the inversion framing in §1 comes down to `[inf]`
+and the detector list keeps its count rather than gaining one.
+
+Stated at the field's landing, not past it: the catalog's own dim25
+correction says the counting task is *compromised*, not broken —
+Zimprich 2020 reanalyzed the critique's data and argued much of the
+defect is an artifact of correlating ratio variables, and the field
+settled on don't-abandon-don't-trust, prefer discrimination and
+phase-adjustment tasks. So a null here does not license "the objective
+channel is unusable." It licenses "this task is a poor measure and the
+better ones are the ones this design already uses." [lit]
 
 **confounds.** The discrimination task has its own literature and its
 own critics; it is better than counting, not clean. Report which
 variant and its own reliability rather than treating it as ground
 truth.
 
+If this design is ever extended to a *training* effect rather than a
+group difference, Murphy & Bird 2025 is the checklist: seven distinct
+mechanisms all present as improved interoceptive accuracy and only one
+is a genuine perceptual gain — attentional cueing, labelling,
+perceptual boosting by breath-holding or muscle tensing, learning the
+task mapping, heart-rate knowledge, composite-measurement confounds,
+and reduced anxiety lowering heart rate. It also explains the
+Meyerholz d=1.21 vs Rominger preregistered d=0.15 split: counting-task
+gains survive, discrimination-task gains vanish. Any training claim
+must be measured on a task unaffected by rate knowledge, which is the
+same requirement this design already imposes for a different reason.
+[lit]
+
 **cost.** Low. Standard psychophysiology kit, one session per
 participant, no carrier dependency — this is the one protocol here
 that anyone could run.
+
+### C-e. Detecting out-of-range operation
+
+The catalog now gives Column C an operating range and a failure
+regime, which it previously lacked. The failure is overshoot: the
+trained operation decouples response from content, the dose-response
+is non-monotonic, and past a point the decoupling runs into
+depersonalization and anhedonia — adverse-event prevalence around
+8.3%. More training makes the reading worse. [lit]
+
+```
+claim          past a threshold of response decoupling, readings stop
+               resolving to actions — and that is detectable by the
+               spec's own criterion rather than by a clinical one
+```
+
+**design.** Rides on the C-b log. Code each reading for whether it
+resolved to an action or to a label, and plot that rate against
+cumulative practice within-subject and across subjects at different
+practice volumes.
+
+**discriminator.** A rising noun-output rate at high practice volume
+is out-of-range operation. The spec already says a noun output means
+the instrument was not used; this applies that criterion to a dose
+axis.
+
+**null says.** Flat noun-rate across practice volume means either the
+overshoot does not occur in this population or the spec's criterion
+does not detect it. The two are not separable by this design alone,
+and saying so beforehand keeps a flat result from being read as
+safety.
+
+**this one is not only a measurement.** Unlike everything else in this
+file, the phenomenon under study is a documented adverse outcome. A
+protocol that observes it must have a route out — someone to refer to,
+a stopping rule, and no incentive to keep a subject in the condition
+to complete the dose curve. Observational only; do not induce.
+
+**cost.** Rides on C-b. The care costs more than the measurement.
 
 ### What G4 does and does not do to the Column C protocols
 

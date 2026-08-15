@@ -1,0 +1,676 @@
+<title>Protocol Bench</title>
+
+<style>
+  /* ---- tokens: light is the base, both dark states redefine ---- */
+  :root {
+    --paper:    #E7E9E4;
+    --card:     #F2F3EF;
+    --card-2:   #DDE0DA;
+    --ink:      #14191B;
+    --ink-2:    #4A5457;
+    --ink-3:    #6E787B;
+    --rule:     #C4C9C1;
+    --rule-2:   #AEB4AB;
+    --accent:   #0D6169;
+    --accent-w: #0D616914;
+    --signal:   #A8560A;
+    --signal-w: #A8560A14;
+    --ok:       #3D6B34;
+    --shadow:   0 1px 0 #0000000a, 0 1px 3px #00000010;
+
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+            "Liberation Mono", monospace;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+             "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:    #101416;
+      --card:     #191E20;
+      --card-2:   #232A2C;
+      --ink:      #E2E6E2;
+      --ink-2:    #A3ACAE;
+      --ink-3:    #7E8789;
+      --rule:     #2B3335;
+      --rule-2:   #3A4446;
+      --accent:   #52BFC6;
+      --accent-w: #52BFC61f;
+      --signal:   #E2954C;
+      --signal-w: #E2954C1f;
+      --ok:       #7FB273;
+      --shadow:   0 1px 0 #0000002e, 0 1px 3px #00000040;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:    #101416;
+    --card:     #191E20;
+    --card-2:   #232A2C;
+    --ink:      #E2E6E2;
+    --ink-2:    #A3ACAE;
+    --ink-3:    #7E8789;
+    --rule:     #2B3335;
+    --rule-2:   #3A4446;
+    --accent:   #52BFC6;
+    --accent-w: #52BFC61f;
+    --signal:   #E2954C;
+    --signal-w: #E2954C1f;
+    --ok:       #7FB273;
+    --shadow:   0 1px 0 #0000002e, 0 1px 3px #00000040;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px 88px;
+  }
+
+  /* ---- nameplate ---- */
+  .plate {
+    border-bottom: 2px solid var(--ink);
+    padding: 40px 0 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px 32px;
+  }
+  h1 {
+    font-family: var(--mono);
+    font-size: clamp(26px, 4.6vw, 42px);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.05;
+    text-wrap: balance;
+  }
+  .plate-sub {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 10px 0 0;
+  }
+  .readout {
+    font-family: var(--mono);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .readout .big {
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--accent);
+    display: block;
+    line-height: 1;
+  }
+  .readout .cap {
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .lede {
+    max-width: 62ch;
+    margin: 22px 0 0;
+    color: var(--ink-2);
+    font-size: 16.5px;
+  }
+  .lede strong { color: var(--ink); font-weight: 600; }
+
+  /* ---- standing rules ---- */
+  .rules {
+    margin: 34px 0 0;
+    border: 1px solid var(--rule);
+    background: var(--card);
+    border-radius: 2px;
+  }
+  .rules-head {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding: 11px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+  }
+  .rule-item {
+    padding: 14px 16px;
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 14.5px;
+    color: var(--ink-2);
+  }
+  .rule-item b {
+    display: block;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  /* ---- controls ---- */
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 0 14px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    align-items: center;
+  }
+  .ctl-group {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .ctl-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-right: 2px;
+  }
+  button.chip, select.sel, input.search {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--rule-2);
+    border-radius: 2px;
+    padding: 6px 10px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+  }
+  input.search {
+    cursor: text;
+    min-width: 190px;
+    flex: 1 1 190px;
+    max-width: 320px;
+  }
+  select.sel { cursor: pointer; }
+  button.chip:hover, select.sel:hover { border-color: var(--accent); }
+  button.chip[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--paper);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .count {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-3);
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- grid ---- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+    align-items: start;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .card-top {
+    padding: 14px 16px 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .pid {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    color: var(--accent);
+  }
+  .pentry {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-left: auto;
+    text-align: right;
+  }
+  .ptitle {
+    font-family: var(--serif);
+    font-size: 18.5px;
+    line-height: 1.28;
+    margin: 8px 16px 0;
+    text-wrap: balance;
+  }
+  .pclaim {
+    margin: 9px 16px 0;
+    font-size: 14.5px;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+
+  /* cost meter — four segments, filled to level */
+  .meter {
+    margin: 14px 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .meter-bars { display: flex; gap: 3px; }
+  .meter-bars i {
+    display: block;
+    width: 20px;
+    height: 5px;
+    background: var(--card-2);
+    border-radius: 1px;
+  }
+  .meter-bars i.on { background: var(--accent); }
+  .meter-txt {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 12px 16px 0;
+  }
+  .flag {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 2px;
+    border: 1px solid var(--rule-2);
+    color: var(--ink-3);
+  }
+  .flag.clock { color: var(--signal); border-color: var(--signal); background: var(--signal-w); }
+  .flag.now   { color: var(--ok); border-color: var(--ok); }
+  .flag.free  { color: var(--accent); border-color: var(--accent); background: var(--accent-w); }
+  .flag.care  { color: var(--signal); border-color: var(--signal); }
+
+  .null {
+    margin: 14px 0 0;
+    padding: 12px 16px 14px;
+    background: var(--card-2);
+    border-top: 1px solid var(--rule);
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+  .null b {
+    display: block;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .empty {
+    grid-column: 1 / -1;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-3);
+    padding: 44px 0;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 52px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--ink-3);
+    line-height: 1.8;
+  }
+
+  @media (max-width: 600px) {
+    .plate { padding-top: 28px; }
+    .readout { text-align: left; }
+    .count { margin-left: 0; width: 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="plate">
+    <div>
+      <h1>Protocol Bench</h1>
+      <p class="plate-sub">tool-off-metrology &nbsp;·&nbsp; experiments.md &nbsp;·&nbsp; seed</p>
+    </div>
+    <div class="readout">
+      <span class="big" id="total">21</span>
+      <span class="cap">proposed &nbsp;/&nbsp; none run</span>
+    </div>
+  </header>
+
+  <p class="lede">
+    Every protocol against the <strong>Unnamed Instruments</strong> catalog, with
+    what a negative result would kill and what it would leave standing. Nothing
+    here has been run, so every design carries <strong>[inf]</strong> — a proposal,
+    not a result. Sorting is by the plan's own rule: <strong>carrier-bound work
+    sorts on expiry, not cost.</strong>
+  </p>
+
+  <section class="rules">
+    <div class="rules-head">Standing rules — these bind every protocol below</div>
+    <div class="rules-grid">
+      <div class="rule-item"><b>1 · Two numbers or none</b>Trained carriers and naive controls, with the gap as the finding. And say which kind: a threshold difference or a reporting difference.</div>
+      <div class="rule-item"><b>1b · Name the axis first</b>A trained population exceeds baseline on the axis it trains. A null on an unnamed axis is unreadable afterward.</div>
+      <div class="rule-item"><b>2 · Method of loci first</b>The positive control with an answer key. A protocol that can't recover a known orders-of-magnitude gap can't find a smaller one.</div>
+      <div class="rule-item"><b>3 · Blind, or don't bother</b>Felt externality is not evidence of externality. The carriers are not exempt by being right about other things.</div>
+      <div class="rule-item"><b>4 · Score trial one apart</b>Everything after the first trial is relearning — and calibration to an unfamiliar apparatus.</div>
+      <div class="rule-item"><b>5 · Carrier priority</b>These are not sample sizes. They are the entire population, and they are on the clock the whole repo is about.</div>
+    </div>
+  </section>
+
+  <nav class="controls" aria-label="Filter protocols">
+    <div class="ctl-group">
+      <span class="ctl-label">Entry</span>
+      <button class="chip" data-filter="entry" data-val="all" aria-pressed="true">All</button>
+      <button class="chip" data-filter="entry" data-val="A" aria-pressed="false">A · transducers</button>
+      <button class="chip" data-filter="entry" data-val="B" aria-pressed="false">B · formats</button>
+      <button class="chip" data-filter="entry" data-val="C" aria-pressed="false">C · readout</button>
+      <button class="chip" data-filter="entry" data-val="G" aria-pressed="false">G · gap log</button>
+    </div>
+    <div class="ctl-group">
+      <span class="ctl-label">Only</span>
+      <button class="chip" data-filter="flag" data-val="now" aria-pressed="false">Runnable now</button>
+      <button class="chip" data-filter="flag" data-val="clock" aria-pressed="false">Carrier-bound</button>
+      <button class="chip" data-filter="flag" data-val="free" aria-pressed="false">Rides free</button>
+    </div>
+    <div class="ctl-group">
+      <span class="ctl-label">Sort</span>
+      <select class="sel" id="sort">
+        <option value="plan">Plan order</option>
+        <option value="cost">Cost, lowest first</option>
+        <option value="entry">Catalog entry</option>
+      </select>
+    </div>
+    <input class="search" id="q" type="search" placeholder="search claims…" aria-label="Search protocols">
+    <span class="count" id="count"></span>
+  </nav>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Cost is apparatus + subjects + elapsed time, not money.<br>
+    Carrier-bound protocols sort on expiry rather than cost — a citation graph
+    will still be there in five years.<br>
+    Source: <code>experiments.md</code>, <code>unnamed-instruments.md</code>,
+    <code>plan.md</code> — CC0.
+  </footer>
+</div>
+
+<script>
+const P = [
+  { id:"B2-a", entry:"B2 · shape store", plan:1, cost:0,
+    title:"Retrieval, recorded before checking",
+    claim:"Retrieval returns detail never deliberately encoded, and the detail is correct.",
+    flags:["now","clock"],
+    nul:"Bounds the retrieval claim only. Says nothing about whether the store exists, or whether shapes are the native mode — those rest on the procedure being operable, which is directly observable." },
+
+  { id:"MoL", entry:"cross-cutting", plan:2, cost:0,
+    title:"Method-of-loci positive control",
+    claim:"The scoring logic can recover a trained/untrained gap that is known and large.",
+    flags:["now"],
+    nul:"Failure here invalidates the instrument, not the hypothesis. A protocol that cannot recover a known orders-of-magnitude effect has no power to find a smaller unknown one." },
+
+  { id:"G4-a", entry:"G4 · interoception", plan:3, cost:1,
+    title:"Invalidity, or inversion?",
+    claim:"Heartbeat-counting ranks interoceptive accuracy backwards once norm-knowledge is measured alongside it.",
+    flags:["now"],
+    nul:"Invalidity without inversion. The [lit:high] on the inversion framing in §1 comes down to [inf]. It does not license \"the objective channel is unusable\" — the field landed on compromised, not broken." },
+
+  { id:"A1-a", entry:"A1 · fault reading", plan:4, cost:1,
+    title:"Does the reading beat chance, blinded?",
+    claim:"A trained carrier localizes a fault behind drywall above chance, with no external instrument.",
+    flags:["clock"],
+    nul:"Kills the claim for this apparatus at this fault magnitude. Not the field reports — a built board may not reproduce a real failure, and that difference becomes the next thing to measure." },
+
+  { id:"A1-b", entry:"A1 · fault reading", plan:5, cost:1,
+    title:"Which of the four channels?",
+    claim:"The reading runs on electrostatic-via-hair, leakage microshock, spark discharge, or radiant heat.",
+    flags:["clock","gated"],
+    nul:"Collapse to arcing-only means the reading is real and the electric-field framing wrong — a misidentified-mechanism result, which the catalog has a tier for. A four-way null sends it back to A1-a: the design missed the channel." },
+
+  { id:"A3-b", entry:"A3 · radiometry", plan:6, cost:1,
+    title:"Quantify the adaptation drift",
+    claim:"Palm threshold re-zeros with adaptation, so only differentials are trustworthy.",
+    flags:[],
+    nul:"No drift means the confound was overstated and absolutes are usable — a loosened constraint rather than a broken claim. The rare protocol here whose null is good news." },
+
+  { id:"B1-a", entry:"B1 · probability field", plan:7, cost:0,
+    title:"Does the interface do the collapsing?",
+    claim:"The collapse to a committed value happens at the output interface, not in the representation.",
+    flags:["now"],
+    nul:"No difference means the collapse is in the thinking, and B1's central claim is wrong in a way worth knowing." },
+
+  { id:"C-b", entry:"C · internal readout", plan:8, cost:3,
+    title:"The separability test — P-series",
+    claim:"Two candidate channels are one channel with two names if they license the same correction in every case.",
+    flags:["clock"],
+    nul:"Settles panel bookkeeping and nothing more. It cannot say whether the channels are natural kinds — that is P9, with its own literature already pointing the other way." },
+
+  { id:"C-a", entry:"C · internal readout", plan:9, cost:2,
+    title:"Does gain actually jam the other channels?",
+    claim:"Performance on an unrelated concurrent task drops above the impedance threshold, and not below.",
+    flags:["clock"],
+    nul:"A genuine kill condition for the spec. No degradation means gain is severity-of-feeling after all and the central distinction collapses — and the spec should carry that as a stated kill condition." },
+
+  { id:"G1-a", entry:"G1 · neurosteroid axis", plan:10, cost:3,
+    title:"Differential channel sensitivity",
+    claim:"Neurosteroid state shifts the relative sensitivity of channels, and a trained operator predicts the ordering before measurement.",
+    flags:["clock"],
+    nul:"Kills the read-as-instrument claim, which is the claim at issue. Leaves the neuroendocrinology untouched — that stands on its own literature and never needed this." },
+
+  { id:"C-c", entry:"C · internal readout", plan:11, cost:0,
+    title:"Shame's component count",
+    claim:"Shame is compound, and the component count equals the number of distinct corrections it licenses.",
+    flags:["clock","free"],
+    nul:"A single correction across all instances means not compound — which sends the question back to the carrier report, not to the schema." },
+
+  { id:"C-d", entry:"C · internal readout", plan:12, cost:0,
+    title:"Differentiate Frijda, or conflate him?",
+    claim:"Amplitude and impedance are two axes matching two transitions Frijda kept distinct.",
+    flags:["clock","free"],
+    nul:"Perfect co-occurrence means one axis under two names, and Frijda's single graded control-precedence covers it. That simplifies the spec rather than breaking it." },
+
+  { id:"C-e", entry:"C · internal readout", plan:13, cost:0,
+    title:"Detecting out-of-range operation",
+    claim:"Past a threshold of response decoupling, readings stop resolving to actions — detectable by the spec's own criterion.",
+    flags:["clock","free","care"],
+    nul:"Flat noun-rate across practice volume means either the overshoot does not occur here or the criterion does not detect it. Not separable by this design — say so first, so a flat result is not read as safety." },
+
+  { id:"B2-b", entry:"B2 · shape store", plan:14, cost:1,
+    title:"Is configuration load-bearing?",
+    claim:"Nothing retrieves until the shapes are set in the right relation. Configuration is not preamble.",
+    flags:["clock"],
+    nul:"No drop under either load means the procedure description is a post-hoc account of something automatic. That does not touch whether the store exists — only whether the steps are steps." },
+
+  { id:"A2-a", entry:"A2 · tool-mediated touch", plan:15, cost:1,
+    title:"Trained discrimination through a probe",
+    claim:"Practitioners discriminate material state through a tool at a level novices do not reach.",
+    flags:[],
+    nul:"Kills the trained-capacity claim for this task only. The channel stands on the Pacinian literature and does not need this result." },
+
+  { id:"A3-a", entry:"A3 · radiometry", plan:16, cost:1,
+    title:"Blinded flux detection, trained vs untrained",
+    claim:"Detection floor is lower in trained carriers than the ~6.7 W/m² general figure.",
+    flags:[],
+    nul:"No trained advantage kills the trained claim. The radiometry survives untouched — that number is Hardy & Oppel's, not this repo's." },
+
+  { id:"B2-c", entry:"B2 · shape store", plan:17, cost:2,
+    title:"Does transfer follow physics, or surface?",
+    claim:"The operator transfers between tasks sharing a physics pattern faster than between tasks sharing surface features — controls do the opposite.",
+    flags:["clock"],
+    nul:"Transfer tracking surface for everyone means the cross-domain compression claim is not doing work, and B2 reduces to a vivid method-of-loci variant. Still a real instrument; much less distinctive." },
+
+  { id:"B2-d", entry:"B2 · shape store", plan:18, cost:2,
+    title:"Are words the lossiest render target?",
+    claim:"The same retrieved content, rendered four ways, loses most detail in words.",
+    flags:["clock"],
+    nul:"If verbal is not worse, the render-target hierarchy is wrong and \"words are a secondary translation layer\" is a preference rather than a mechanism. Puts a number on the documentation gap — this repo included." },
+
+  { id:"B1-b", entry:"B1 · probability field", plan:19, cost:2,
+    title:"The serialization gradient",
+    claim:"Loss on serialization scales with how holistic the content is — procedures survive, perceptual fields degrade.",
+    flags:[],
+    nul:"A flat gradient means the loss does not reproduce here, and the repo's documentation-loss argument weakens — including the argument it makes about itself." },
+
+  { id:"G3-a", entry:"G3 · the record", plan:20, cost:2,
+    title:"Where to look, and what would count",
+    claim:"Calibration knowledge of the neurosteroid axis is described somewhere in a trained-perceiver tradition.",
+    flags:["collab"],
+    nul:"An empty search bounds the search, not the question. State where you looked and stop — do not keep searching for an absence." },
+
+  { id:"A1-c", entry:"A1 · fault reading", plan:21, cost:3,
+    title:"Trained vs untrained",
+    claim:"The ~14 kV/m literature threshold is the untrained distribution and does not bound trained carriers.",
+    flags:["clock"],
+    nul:"Carriers indistinguishable from controls kills the trained-capacity claim while leaving the reading intact — it would mean anyone can do this untrained, which is a different and more interesting finding." },
+
+  { id:"A2-b", entry:"A2 · tool-mediated touch", plan:22, cost:3,
+    title:"The HAVS gradient",
+    claim:"Discrimination degrades with cumulative vibration exposure before the practitioner reports any symptom.",
+    flags:["closes"],
+    nul:"No gradient before symptoms means the test is not an early instrument and A2's gap-log entry stands unclosed. A clean negative, and worth having." }
+];
+
+const COSTS = ["near-zero","low","moderate","high"];
+const FLAGLABEL = {
+  now:   ["now",    "Runnable now"],
+  clock: ["clock",  "Carrier clock"],
+  free:  ["free",   "Rides free"],
+  gated: ["",       "Gated"],
+  care:  ["care",   "Adverse-outcome care"],
+  collab:["",       "Needs a collaborator"],
+  closes:["free",   "Could close a gap"]
+};
+
+let fEntry = "all", fFlag = null, sortBy = "plan", q = "";
+const grid = document.getElementById("grid");
+const countEl = document.getElementById("count");
+document.getElementById("total").textContent = P.length;
+
+function meter(c) {
+  let s = '<div class="meter"><div class="meter-bars">';
+  for (let i = 0; i < 4; i++) s += `<i class="${i <= c ? "on" : ""}"></i>`;
+  return s + `</div><span class="meter-txt">${COSTS[c]} cost</span></div>`;
+}
+
+function card(p) {
+  const flags = p.flags.map(f => {
+    const [cls, label] = FLAGLABEL[f];
+    return `<span class="flag ${cls}">${label}</span>`;
+  }).join("");
+  return `<article class="card">
+    <div class="card-top">
+      <span class="pid">${p.id}</span>
+      <span class="pentry">${p.entry}</span>
+    </div>
+    <h2 class="ptitle">${p.title}</h2>
+    <p class="pclaim">${p.claim}</p>
+    ${meter(p.cost)}
+    ${flags ? `<div class="flags">${flags}</div>` : ""}
+    <div class="null"><b>Null says</b>${p.nul}</div>
+  </article>`;
+}
+
+function render() {
+  let rows = P.filter(p => {
+    if (fEntry !== "all" && !p.entry.startsWith(fEntry)) return false;
+    if (fFlag && !p.flags.includes(fFlag)) return false;
+    if (q) {
+      const hay = (p.id + p.title + p.claim + p.nul + p.entry).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (sortBy === "cost") rows.sort((a, b) => a.cost - b.cost || a.plan - b.plan);
+  else if (sortBy === "entry") rows.sort((a, b) => a.id.localeCompare(b.id));
+  else rows.sort((a, b) => a.plan - b.plan);
+
+  grid.innerHTML = rows.length
+    ? rows.map(card).join("")
+    : '<p class="empty">No protocol matches those filters.</p>';
+  countEl.textContent = `${rows.length} of ${P.length} shown`;
+}
+
+document.querySelectorAll("button.chip").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const kind = btn.dataset.filter, val = btn.dataset.val;
+    if (kind === "entry") {
+      fEntry = val;
+      document.querySelectorAll('[data-filter="entry"]').forEach(b =>
+        b.setAttribute("aria-pressed", String(b === btn)));
+    } else {
+      const on = btn.getAttribute("aria-pressed") === "true";
+      fFlag = on ? null : val;
+      document.querySelectorAll('[data-filter="flag"]').forEach(b =>
+        b.setAttribute("aria-pressed", String(!on && b === btn)));
+    }
+    render();
+  });
+});
+document.getElementById("sort").addEventListener("change", e => {
+  sortBy = e.target.value; render();
+});
+document.getElementById("q").addEventListener("input", e => {
+  q = e.target.value.trim().toLowerCase(); render();
+});
+
+render();
+</script>

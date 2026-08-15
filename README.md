@@ -89,6 +89,10 @@ experiments.md                proposed protocols, one or more per catalog
                               entry. each states what a null would kill and
                               what it would leave standing. nothing run yet
 
+protocol-bench.html           the protocol set as a filterable index —
+                              cost, carrier clock, and what each null kills.
+                              generated from experiments.md, not a source
+
 plan.md                       research roadmap. what each open question needs,
                               what would falsify it, what is blocked on what,
                               and what to do first

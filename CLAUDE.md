@@ -17,6 +17,8 @@ emotion-reading-spec.md      operator-side reading method
 sensor-panel.md              content side of that method, per channel
 unnamed-instruments.md       catalog of real, unnamed sensing instruments
 experiments.md               proposed protocols against the catalog entries
+protocol-bench.html          filterable index over experiments.md. derived,
+                             never a source — update the doc, then the page
 plan.md                      research roadmap over the framework's Q1–Q7
 ```
 
