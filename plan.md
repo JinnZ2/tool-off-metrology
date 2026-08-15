@@ -537,6 +537,12 @@ EXPENSIVE, RUN LAST
   A1-c   trained vs untrained. recruitment
   A2-b   the HAVS gradient. field recruitment and a real sample
 
+CARRIER-BOUND, TRAVEL
+  FM-a   the field modifier, tested as a modifier. within-site
+         correlation against a magnetometer the holder cannot see —
+         that is the arm familiarity cannot explain. belt as positive
+         control
+
 ANYONE CAN RUN THIS ONE
   G4-a   heartbeat discrimination vs counting vs norm-knowledge.
          standard kit, one session per subject, no carrier
@@ -665,6 +671,24 @@ conductance — shows a large, replicated cross-cultural difference that
 lived entirely in reporting. Applied here: a capacity absent from a
 record may also be absent from the practice, and the two are not
 separable by reading the record harder. [lit]
+
+### the untrained-baseline principle has now returned a negative
+
+Worth logging on its own, because it is what keeps the principle from
+being an escape hatch.
+
+The principle predicts that a trained population may hold what
+untrained samples lack. Applied to magnetoreception, the catalog ran
+that prediction and it **failed** — the trained-carrier search came
+back empty, and the capacity being pointed at turned out to be real
+but running on a different channel: sustained dead-reckoning in
+speakers of absolute-frame languages. Real reading, real training,
+wrong mechanism. [lit]
+
+A principle that only ever converts nulls into "you measured the wrong
+population" explains everything and forecloses nothing. This negative,
+alongside the konenki counter-case, is the evidence that it does not.
+Keep both attached to the principle wherever it is used. [inf]
 
 ### the tally, kept honest
 

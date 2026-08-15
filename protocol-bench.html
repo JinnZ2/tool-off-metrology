@@ -423,6 +423,7 @@
       <button class="chip" data-filter="entry" data-val="B" aria-pressed="false">B · formats</button>
       <button class="chip" data-filter="entry" data-val="C" aria-pressed="false">C · readout</button>
       <button class="chip" data-filter="entry" data-val="G" aria-pressed="false">G · gap log</button>
+      <button class="chip" data-filter="entry" data-val="open" aria-pressed="false">open tier</button>
     </div>
     <div class="ctl-group">
       <span class="ctl-label">Only</span>
@@ -585,7 +586,12 @@ const P = [
     title:"The HAVS gradient",
     claim:"Discrimination degrades with cumulative vibration exposure before the practitioner reports any symptom.",
     flags:["closes"],
-    nul:"No gradient before symptoms means the test is not an early instrument and A2's gap-log entry stands unclosed. A clean negative, and worth having." }
+    nul:"No gradient before symptoms means the test is not an early instrument and A2's gap-log entry stands unclosed. A clean negative, and worth having." },
+  { id:"FM-a", entry:"open tier · field modifier", plan:23, cost:2,
+    title:"The field modifier, tested as a modifier",
+    claim:"Readings on the other channels shift with local field structure, in a long-resident trained holder.",
+    flags:["clock"],
+    nul:"No covariation with measured field structure means the reading is not tracking the field. It does not kill the reading — a modifier could track terrain through topography or acoustics with no field component, which moves the entry toward misidentified-mechanism." }
 ];
 
 const COSTS = ["near-zero","low","moderate","high"];

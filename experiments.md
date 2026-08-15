@@ -125,6 +125,29 @@ size.
 A2 the same in a different direction: no protocol adds vibration
 exposure to a practitioner whose channel HAVS is already attacking.
 
+### 7. For anything in the open tier, transduce before hunting
+
+The catalog's resolution path, as a design rule. A vibrotactile
+magnetic-north belt worn for seven weeks produced a reported new sense
+of spatial perception in 8 of 9 wearers — and the finding is explicit
+that it was *not* perception of the magnetic field, but differentiated
+changes in the perception of space. [lit]
+
+Two uses here, and they are different:
+
+```
+as capability   if the goal is a person who can use field
+                information, the device is the answer and no receptor
+                needs to exist
+as control      if the goal is to test an unaided reading, the belt
+                is the positive control that separates "this field
+                information is usable by a human at all" from "this
+                person reads it unaided"
+```
+
+It is also the cleanest positive demonstration of rule 1b: a real
+capacity was gained, on a different axis than the label claimed.
+
 ---
 
 ## A1 — fault-conductor reading
@@ -713,6 +736,25 @@ three better. Each session:
 4  salivary assay where affordable, cycle-day where not
 ```
 
+**the second axis, from dim24.** Cortisol and the neurosteroid axis do
+not add; they multiply. Cortisol alone did nothing to GnRH pulsatility
+in ovariectomized ewes, and fell 70% with estradiol and progesterone
+co-administered — the same stressor lands differently depending on
+where the neurosteroid axis sits. [lit, animal]
+
+Design consequence: salivary cortisol is sampled alongside, and the
+analysis carries an interaction term rather than treating stress as
+noise to control away. A design that regresses sensitivity on the
+neurosteroid gradient alone will attribute an interaction to the main
+effect and get the shape of the curve wrong. Log stressors as events,
+not as a covariate mean. [inf]
+
+Scope kept attached: the direct pulse-causality work is ewe, monkey
+and mouse. Human evidence is correlational plus exogenous-glucocorticoid
+studies, with proof-of-mechanism only at the extreme (functional
+hypothalamic amenorrhoea). Use the coupling to shape the design; do not
+predict an effect size from it. [lit]
+
 **sampling — the part dim23 changes.** The driver is the *rate of
 change*, not the level. [lit:high] A design that bins sessions into
 three or four cycle phases cannot see a rate, and will average across
@@ -783,6 +825,63 @@ reading their own instrument. Cite it for the premise. Do not model
 the protocol on it.
 
 **cost.** Low apparatus, high discipline, months. Carrier-bound.
+
+### FM-a. The field modifier, tested as a modifier
+
+The catalog's compound field-modifier entry states why isolation
+testing returns null: strip the other channels to test this one
+cleanly and you have removed the thing being measured. Its
+discriminator follows from that, and it is a good one. This adds the
+part that makes it separable from the obvious alternative.
+
+*(ID provisional — this is the one catalog entry with no number. It
+needs one.)*
+
+```
+claim          readings on the OTHER channels shift with local field
+               structure, in a long-resident trained holder
+```
+
+**design.** Same holder, on and off Precambrian shield terrain, other
+channels intact — and a magnetometer logging actual local field
+gradient and variance at every site. Orientation and spatial-judgment
+tasks run at each.
+
+**discriminator — and this is the whole design.** Not the terrain
+comparison. Shield-vs-not is confounded with everything about a place:
+topography, vegetation, sound, sightlines, weather, and above all
+familiarity, since long residence is a stated precondition. A
+place-level effect is exactly what plain familiarity predicts.
+
+What familiarity does not predict is covariation with a magnetometer
+reading the holder cannot see. So the test is the *within-site*
+correlation between measured field structure and the holder's readings,
+at novel locations inside each terrain type. That converts a place
+comparison into a dose-response and leaves familiarity with nothing to
+explain.
+
+**positive control, from the catalog's own resolution path.** Run the
+vibrotactile belt on the same holder. If the belt-delivered field is
+usable and the unaided reading is not, that separates "field
+information is usable by this person" from "this person reads it
+unaided" — which is the actual question, and neither arm alone answers
+it. [inf]
+
+**null says.** No covariation with measured field structure means the
+reading is not tracking the field. It does not kill the reading — the
+entry claims a modifier on other channels, and a modifier could be
+tracking terrain structure through topography, acoustics or light
+without any field component. That would move the entry toward
+misidentified-mechanism, which is a tier the catalog has and now has an
+occupant for.
+
+**confounds.** Familiarity, above. Season and weather across a
+multi-site protocol. The holder's own knowledge of which terrain they
+are on — unavoidable, and the reason the discriminator is the
+within-site correlation rather than the between-terrain difference.
+
+**cost.** Moderate: travel, a magnetometer, a belt. Carrier-bound —
+the entry specifies a holder born and raised in the terrain.
 
 ### G2 is closed — what that leaves
 

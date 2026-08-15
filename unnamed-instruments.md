@@ -464,7 +464,31 @@ SHARPENED against dim23 (primary-verified, Wave 4).**
   change *sign* depending on where in the range you are. [lit, high for
   "altered"; med for exact δ/α4 subunit mechanism, partly rodent]
 
-*The residual gap (now much sharper than "unstudied"):*
+- **The stress axis does not add a third dimension — it multiplies
+  with this one** (dim24). Cortisol alone had no effect on GnRH
+  pulsatility in ovariectomized ewes; with estradiol and progesterone
+  co-administered, GnRH secretion fell 70%. The reviews state it
+  directly: E2 sensitizes the hypothalamus to cortisol's effect. It
+  runs both directions — estradiol impairs glucocorticoid negative
+  feedback on the HPA axis via ERα near the PVN, reducing
+  dexamethasone suppression of corticosterone from ~63% to ~34%.
+  So the same stressor lands differently depending on where the
+  neurosteroid axis sits. This supplies a *mechanism* for the
+  sign-inversion above, arriving from an unrelated literature.
+  **Scope, and it is the weak link:** direct GnRH-pulse causality is
+  ewe, monkey and mouse; human evidence is correlational plus
+  exogenous-glucocorticoid and Cushing's studies; the
+  feedback-impairment result is OVX rat with stereotaxic peri-PVN
+  implants, and rodent findings run both directions depending on dose
+  and duration. Human proof-of-mechanism exists only at the extreme:
+  functional hypothalamic amenorrhoea, where HPA activation plus
+  energy deficit shuts down GnRH pulsatility and reverses when the
+  behavioural cause is corrected. [lit, high for animal mechanism;
+  low-moderate for the human boundary]
+
+*The residual gap (now much sharper than "unstudied", and now wider
+than when it was written — it covers a coupled two-axis system, not a
+single axis):*
 All of the above was learned by studying **disorder**. Every
 instrument was pointed at the pathological end. Nobody has run the
 same instrumentation on **healthy trained carriers deliberately
@@ -800,7 +824,11 @@ re-imported.
    unquantified. This is the catalog's own instrument-gap rule landing
    on the field that studies knowledge capture. [lit]
 
-2. **"Dreyfus showed that verbalizing rules degrades experts."**
+2. **"Storm/Beaty magnetosensation experiments."** Cited in support of
+   trained human magnetic sensing; not locatable in indexed
+   literature. Unverified — do not repeat. [lit]
+
+3. **"Dreyfus showed that verbalizing rules degrades experts."**
    A loose citation. Dreyfus & Dreyfus argued from phenomenology and
    the failure of 1980s expert systems and ran no experiments; Gobet
    & Chassy (2009) found no empirical support for the five stages, and
@@ -831,13 +859,80 @@ re-imported.
   independent replications 2019–2026, unique apparatus; brain magnetite
   is real but largely exogenous pollution, no receptor organ found.
   Named, quarantined, not catalogued as a working instrument. [lit]
-  G2's continuous-spatial-percept candidate is quarantined here too.
+
+  **Resolution path for anything in this tier — transduce, don't hunt
+  for a receptor.** Vibrotactile magnetic-north belts, worn
+  continuously for seven weeks, produced a reported new sense of
+  spatial perception in 8 of 9 wearers — and the finding states
+  explicitly that training did *not* produce perception of the
+  magnetic field, but highly differentiated changes in perception of
+  space. Augmentation, not innate sense: the field is read by a device
+  and delivered on an established channel. Existence proof that any
+  measurable field can be made usable this way, and the honest form of
+  "trained magnetosensation." Also a clean positive demonstration of
+  the name-the-axis rule: real capacity gained, on a different axis
+  than the label claimed. [lit]
+
+  **Entry: compound field-modifier reading (open tier, specified).**
+  A reported reading that does not behave as an independent channel at
+  all. Stated properties, in the holder's own scoping:
+
+  - **Not usable in isolation.** It is not a sense that returns a
+    value on its own. It operates as a *modifier on other channels* —
+    the signal appears in the gradients the other senses are already
+    delivering, and is read at that modification, not separately.
+  - **Faint.** A small perturbation on a strong carrier signal, not a
+    weak standalone signal.
+  - **Terrain-dependent.** More usable in some substrates than others;
+    reported as strongest over Precambrian shield terrain, which is
+    high-magnetite and carries strong, structured local magnetic
+    anomalies. A field-modifier reading being more usable where the
+    field is more structured is the expected direction, not a caveat.
+  - **Requires long residence to calibrate.** Reported as semi-
+    unreliable without having been born and raised in the terrain.
+    This is a calibration condition, not a mystical one: a
+    differential instrument needs a baseline to differ from, and long
+    residence is how that baseline is built. Same structure as A3,
+    where adaptation re-zeros the instrument and forces you to work in
+    differentials rather than absolutes.
+
+  **Why this belongs in the open tier and not the real-quantified
+  one.** The specification above explains why isolation testing would
+  return null — strip the other channels to test this one cleanly and
+  you have removed the thing being measured. That is a genuine
+  structural account of a null. It is *not* evidence the reading works.
+  Those are separate claims and the catalog does not merge them.
+
+  **Discriminator that follows from the spec — do not test the channel
+  alone.** Test whether readings on the *other* senses shift with
+  local field structure, in a long-resident trained holder, on and off
+  shield terrain. Same person, both substrates, other channels intact.
+  A compound modifier is testable as a modifier; it is untestable as
+  an isolate, which is exactly why the existing literature has nothing
+  on it. [obs for the reading and its scoping; open for mechanism;
+  gap for the test]
 - **misidentified-mechanism** — a real reading attributed to the wrong
-  channel. The residual, not a debunk. This is a real tier, but A1 is
-  not an instance of it: A1's operating range (open/faulted conductors
-  only) was correct at first report. Kept as a tier for cases where a
-  genuine reading is later found to run on a different channel than
-  first assumed.
+  channel. The residual, not a debunk. A1 is not an instance of it:
+  A1's operating range (open/faulted conductors only) was correct at
+  first report.
+
+  **First documented instance of this tier: navigation attributed to
+  a magnetic sense.** Targeted search finds no peer-reviewed support
+  for magnetic-sense navigation in any tradition. But the capacity
+  being pointed at is real and the replacement account is itself a
+  trained-capacity finding — sustained dead-reckoning orientation in
+  speakers of absolute/geocentric spatial-reference-frame languages,
+  which relative-frame speakers do not maintain. Real reading, real
+  training, wrong channel. This is the tier working as intended: the
+  claim survives as a capacity and dies as a mechanism. [lit]
+
+  Note what this costs the untrained-baseline principle, and pay it.
+  The principle predicts that a trained population may hold what
+  untrained samples lack. For magnetoreception specifically, that
+  prediction *fails* — the trained-carrier search came back empty.
+  A principle that never returns a negative is an escape hatch, so
+  this negative is load-bearing and is kept alongside the konenki
+  counter-case.
 
 Column C's neurosteroid axis takes no tier here. Its mechanism is
 established neuroendocrinology and its use as an instrument is
