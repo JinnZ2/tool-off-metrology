@@ -16,8 +16,13 @@ negative-space-metrology.md  the framework. the spine everything hangs off
 emotion-reading-spec.md      operator-side reading method
 sensor-panel.md              content side of that method, per channel
 unnamed-instruments.md       catalog of real, unnamed sensing instruments
+experiments.md               proposed protocols against the catalog entries
 plan.md                      research roadmap over the framework's Q1–Q7
 ```
+
+Protocols in `experiments.md` carry a `null says` line stating what a
+negative result kills and what it leaves standing. A protocol without
+one is not designed, and it will find something.
 
 `sensor-panel.md` mixes provenance on purpose: carried entries are
 `[obs]`/`[panel]`, schema-derived candidates are `[inf]`, and they live

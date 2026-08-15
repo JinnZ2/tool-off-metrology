@@ -85,6 +85,10 @@ unnamed-instruments.md        catalog of real, in-use human instruments
                               it is blind to. that declaration is what
                               separates the catalog from dowsing
 
+experiments.md                proposed protocols, one or more per catalog
+                              entry. each states what a null would kill and
+                              what it would leave standing. nothing run yet
+
 plan.md                       research roadmap. what each open question needs,
                               what would falsify it, what is blocked on what,
                               and what to do first

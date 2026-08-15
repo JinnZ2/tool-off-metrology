@@ -173,6 +173,26 @@ COST       low-medium.
 BLOCKED ON nothing.
 ```
 
+The sample-dynamics line has since been arrived at independently, from
+the other end of the repo. `unnamed-instruments.md` states it as a
+catalog-level principle: a threshold measured in a population where
+the capacity was never taught is the *untrained* distribution, and the
+absence of the skill in it gets recorded as the species limit. Q5's
+"variance already gone" and the catalog's "untrained baseline" are one
+problem, reached from psychology and from psychophysics separately.
+
+That upgrades Q5's status. It stops being a caution about one
+literature and becomes an instance of a general failure the repo can
+name — which also means the audit should look for it rather than
+merely allow for it. The method-of-loci case gives the audit a
+calibration point: a domain where both populations were measured and
+the trained/untrained gap is orders of magnitude. [lit]
+
+Convergence across substrates is the evidence §2 asks for, and this is
+one. It is also two documents in the same repo agreeing, which is
+weaker than two independent literatures agreeing, and the distinction
+should not blur. [inf]
+
 Value here is de-claiming, not claiming. It is the direct defense of the
 §7 seam, applied to a claim the repo would otherwise be tempted to lean
 on. The likely outcome — "the literature does not support extrapolation"
@@ -474,56 +494,47 @@ hinge, and it is the longest pole. Everything downstream of it waits.
 
 ---
 
-## Off-roadmap — the two cheap empirical tests
+## Off-roadmap — the catalog protocols
 
-Not in §8. Both come out of `unnamed-instruments.md`, both are runnable
-now, and both check a felt reading against ground truth — which nothing
-else in this plan does without apparatus or subjects.
-
-### A1 — blinded fault detection
-
-Known-faulted vs known-intact runs, operator blind to which.
-Shop-runnable, no subjects to recruit, no safety review, no apparatus
-that does not already exist.
-
-Worth pulling forward out of proportion to its topic. The confound it
-tests for — felt externality is not evidence of externality — applies
-to every `[obs]` entry in `sensor-panel.md` and every operator report
-Q2 would collect. A positive result is a small finding about wiring. A
-negative result is a large finding about the whole observational base.
-[inf]
-
-### B2 — retrieval, recorded before checking
-
-The Bronco example makes a checkable claim: retrieval returns detail
-that was never deliberately encoded, and the detail is correct.
-
-That is testable. It is also the exact shape of the claims the memory
-literature treats as least reliable — confabulation and hindsight
-produce confident, specific, wrong detail, and produce it most readily
-once the answer is already known. [lit:med]
-
-What separates them costs nothing:
+Not in §8. `experiments.md` now carries the designs; this section
+carries only their place in the ordering.
 
 ```
-1  pose a question whose answer sits in an external record that has
-   not been consulted
-2  run the retrieval. write down the recovered DETAIL — the Bronco,
-   not the conclusion "it was open"
-3  then consult the record
+START NOW, near-zero cost
+  B2-a   retrieval recorded before checking. no apparatus, no
+         subjects, and the carrier is available today
+  MoL    the method-of-loci positive control. one afternoon, and
+         nothing else in experiments.md should be trusted to detect
+         a trained/untrained gap until it has run
+
+CHEAP, NEEDS A BUILD
+  A1-a/b blinded fault detection, then the four-channel sort. one
+         board, two afternoons. the only place in the repo where a
+         felt reading meets ground truth without recruitment
+  A3-a/b palm radiometry, trained vs untrained and the adaptation
+         drift
+
+CARRIER-BOUND, LONG
+  C-a/b/c  the reading log. months, and it cannot start retroactively
+
+EXPENSIVE, RUN LAST
+  A1-c   trained vs untrained. recruitment
+  A2-b   the HAVS gradient. field recruitment and a real sample
 ```
 
-The ordering is the entire test. Retrieve-then-check is a measurement;
-check-then-retrieve is a story, and from the inside they are
-indistinguishable afterward. Same structure as A1's blinded test: the
-operator's confidence is not the variable under test. [inf]
+Two of these earn their priority for reasons beyond their topic.
 
-What a null would and would not kill: a failed retrieval bounds the
-retrieval claim only. It says nothing about whether the store exists or
-whether shapes are the operator's native mode — those rest on the
-procedure being operable, which is directly observable and does not
-need this test. Worth stating before running it, so a null does not get
-read as more than it is. [inf]
+A1-a tests a confound — felt externality is not evidence of
+externality — that applies to every `[obs]` entry in
+`sensor-panel.md` and to every operator report Q2 would collect. A
+positive result is a small finding about wiring; a negative one is a
+large finding about the whole observational base. [inf]
+
+A2-b is the only protocol here that could *close* a gap-log entry
+rather than open one. If tool-mediated discrimination falls before
+symptoms appear, that is a cheap bench instrument saying who has lost
+the channel while the work still looks fine — the first instrument
+this repo produced rather than catalogued. [inf]
 
 ---
 

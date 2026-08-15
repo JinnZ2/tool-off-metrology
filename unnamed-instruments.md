@@ -19,39 +19,98 @@ do not mix.
 
 ---
 
+## Catalog-level principle: the untrained-baseline problem
+
+When the literature reports a "human threshold" or "human baseline"
+for one of these instruments, ask what population it was measured in.
+For a *trained cultural capacity*, the answer is almost always: a
+general-population sample from a culture where the capacity was never
+taught, practiced, or even named. That is not a neutral baseline. It
+is the *untrained* distribution — and the absence of the skill in it
+gets recorded as the species limit.
+
+This is the same engine as tool-off-metrology, aimed back at the
+sensing catalog: the competence was designed out of the studied
+population before anyone measured it, so the measurement certifies its
+own gap as "the human ceiling."
+
+The one case where both populations WERE measured proves the stakes:
+the **method of loci** (spatial-route memory). Untrained memory span
+is the textbook 7±2; trained users of the technique exceed it by
+*orders of magnitude*, uncontroversially and replicably. Aboriginal
+songline memory is this technique as cultural infrastructure;
+Polynesian wayfinding (swell reading, star compass, te lapa) is a
+trained perceptual capacity documented ethnographically but never run
+through a psychophysics instrument — so it has no "threshold" number,
+and the absence reads as impossibility. B2 in this catalog (geometric
+physics-shape store) is a method-of-loci variant and belongs to the
+same family.
+
+Rule for every entry: a literature threshold measured in an untrained
+population bounds the untrained case only. It is silent on trained
+carriers, and its own interindividual variance (often 10–40×) is the
+tell. Mark it, don't inherit it. (Contested strong claims — e.g.
+7,000-year oral-accuracy figures — are not leaned on; the method-of-
+loci trained gap is the solid ground.)
+
+---
+
 ## Column A — transducers (physical detectors)
 
-### A1. Arm-hair electroreception — fault detector
+### A1. Fault-conductor field/discharge reading (arm-hair candidate)
 
-- **Reads:** elevated electric field at an open or arcing conductor —
-  a short, a break, a fault. Read through drywall via hair-follicle
-  mechanoreception (hairs move in the field).
-- **Cannot read:** intact, functional wiring. The ambient field of an
-  intact run behind drywall is ~1–50 V/m — orders of magnitude below
-  the human perception threshold (kV/m-scale). It is correctly
-  invisible. This is a **fault detector, not a wire detector.**
-- **Operating range:** the fault is what lifts the local field into
-  the readable band. Open/arcing conductors, corona discharge — local
-  fields far above the intact-wiring ambient. Documented high-field
-  cases where hair electroreception is real: thunderstorm ground
-  fields (5–20 kV/m), carpet static (up to ~500 kV/m), HV transmission
-  corridors (arm-hair vibration documented, e.g. BPA). [lit]
+- **Reads:** the presence of an open, shorted, or arcing conductor —
+  a fault — localized through drywall, with no external instrument.
+  Reading is real and repeated across trained carriers (operator,
+  spouse, mother intermittently). [obs]
+- **Cannot read:** intact, functional wiring. Confirmed directly:
+  "i definately cannot sense functional wiring, just the shorts or
+  open circuits." The ambient field of an intact run behind drywall
+  is ~1–10 V/m (measured surveys), far below any perception band. It
+  is correctly invisible. **Fault detector, not wire detector.** [obs]
+- **Mechanism: OPEN — four candidate channels, not yet sorted.** The
+  first-pass framing ("arm-hair reads the elevated electric field") is
+  only one candidate, and on the numbers a weak one. Candidates, from
+  the dim17 source:
+  1. *Electrostatic field via hair* — but a fault raises local fields
+     to only hundreds of V/m, still ~50–100× below the *untrained*
+     average detection threshold (~14 kV/m AC). Doesn't close on the
+     general-population numbers. [lit]
+  2. *Leakage-current microshock* — perceptible at ~0.5–1 mA, on or
+     near contact. [lit]
+  3. *Spark / micro-discharge* — perceptible directly. [lit]
+  4. *Radiant heat off a hot fault* — skin is a ~7 W/m² bolometer;
+     dim17 names thermal as the prime misattribution channel when a
+     reading is *told* as electric. [lit]
+  The dim17 file flags the exact diagnostic: "distinguishing field
+  felt at distance from microshock on contact matters." [lit]
+- **The discriminator (open, shop-runnable):** is the reading taken at
+  *distance before contact* (points at field or radiant heat) or *on/
+  near contact* (points at leakage/discharge)? A blinded test —
+  known-faulted vs known-intact runs, operator blind — sorts both the
+  reality (already established by use) and the mechanism (open). This
+  is the cheap test the source literature keeps asking for. [open]
+- **Untrained-baseline caveat (critical):** every threshold number
+  above is measured in general-population volunteers — people never
+  taught the sense exists, never trained, no cultural frame for it.
+  That is not a neutral baseline; it is the *untrained* distribution.
+  The source file's own data shows enormous interindividual variance
+  and a sub-threshold outlier (1 kV/m, ~10× below group mean). The
+  literature has no trained-carrier data because no studied sample was
+  raised to it. The computed "gap" is a gap *for untrained people* and
+  is silent on trained carriers. (See catalog-level note on the
+  untrained-baseline problem.) [inf, well-supported]
 - **Why this survives where dowsing doesn't:** it specifies the regime
-  it works in and concedes the regime it can't. Intact wiring below
-  threshold is a *prediction the instrument makes about its own
-  blindness*, and it's borne out. [inf]
-- **Confound:** felt externality is not evidence of externality
-  (dowsing/EHS/ideomotor lesson). Arbiter is a blinded test — cheap
-  and shop-runnable: known faulted vs known-intact runs, operator
-  blind to which. [lit/open]
-- **Provenance:** the operating range was stated correctly from the
-  first report — "an electric wire that's open," "there is a problem
-  right here." The fault-only scope is the original claim, not a
-  narrowing applied after audit. The Wave 3 packet's intact-wiring
-  numbers describe a scenario that was never claimed; they confirm the
-  blindness the instrument already predicted for itself. [obs]
-- **Tier:** real mechanism, operating range specified at first report.
-  [obs + lit]
+  it works in (faults, not intact wiring) and concedes the regime it
+  can't. The blindness to intact wiring is a prediction the instrument
+  makes about itself, and it holds. Dowsing predicts no such blindness
+  and fails blinded. [inf]
+- **Provenance:** the fault-only scope was in the operator's original
+  words ("an electric wire that's open," "there is a problem right
+  here") — original claim, not a post-audit narrowing. [obs]
+- **Tier:** reading real and carrier-transmitted [obs]; mechanism open,
+  four candidates [open]; literature thresholds measure the untrained
+  population and do not bound the trained case [inf].
 
 ### A2. Tool-mediated remote touch
 
