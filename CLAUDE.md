@@ -14,8 +14,16 @@ README.md                    front door: purpose, tag legend, doc map.
                              orientation only — no argument lives here
 negative-space-metrology.md  the framework. the spine everything hangs off
 emotion-reading-spec.md      operator-side reading method
+sensor-panel.md              content side of that method, per channel
+unnamed-instruments.md       catalog of real, unnamed sensing instruments
 plan.md                      research roadmap over the framework's Q1–Q7
 ```
+
+`sensor-panel.md` mixes provenance on purpose: carried entries are
+`[obs]`/`[panel]`, schema-derived candidates are `[inf]`, and they live
+in separate sections. Never move an entry up a column. A derived
+candidate becomes carried when the practice confirms it, not when it
+reads well.
 
 New specs go at root as their own file and get a line in the README doc
 map. Keep the README thin: when the framework changes, the README changes
@@ -49,6 +57,18 @@ Rules that follow from the convention:
   says so and the sentence does not hedge around it.
 - Absence of an instrument is a finding, logged as `[gap]` — not an
   apology and not a caveat.
+
+## Instrument entries declare their blind side
+
+Any doc that catalogs an instrument — `unnamed-instruments.md`,
+`sensor-panel.md`, and the Q7 gap log when it exists — states, per
+entry, the regime the instrument works in and what it cannot read.
+
+This is the line between a measurement and a story, and it is load-
+bearing: it is what keeps A1 (arm-hair fault detection) on a different
+footing from dowsing. An entry that reads everything, everywhere, has
+not been specified. Its blind side is not a caveat to add at the end —
+it is half the entry.
 
 ## Register
 

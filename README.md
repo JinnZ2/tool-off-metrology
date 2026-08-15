@@ -73,6 +73,17 @@ emotion-reading-spec.md       operator-side reading method: content × gain,
                               a functional instrument that exists only on a
                               carrier clock
 
+sensor-panel.md               the content side of that method — what each
+                              channel reads and what it is blind to. carried
+                              entries and schema-derived candidates, kept in
+                              separate columns
+
+unnamed-instruments.md        catalog of real, in-use human sensing
+                              instruments with no formal name. every entry
+                              declares its operating range and what it cannot
+                              read — that declaration is what separates it
+                              from dowsing
+
 plan.md                       research roadmap. what each open question needs,
                               what would falsify it, what is blocked on what,
                               and what to do first

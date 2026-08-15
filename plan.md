@@ -46,7 +46,9 @@ COST       near zero. additive. needs no permission and no subject.
 BLOCKED ON nothing.
 ```
 
-Entry format, proposed:
+Entry format, revised — the last two fields come from
+`unnamed-instruments.md`, which arrived at the same problem from the
+other side and solved it better:
 
 ```
 skill                what it is, in operator terms
@@ -55,11 +57,37 @@ failure it precedes  what breaks when it is gone, and how long after
 instrument that
   would distinguish  what would have to be measurable to catch it early
 search bound         where you looked for that instrument and did not find it
+operating range      the regime where the skill actually applies
+cannot read          what it is blind to, inside its own regime
 ```
 
-Already has one entry: the reading method in `emotion-reading-spec.md`.
-Household transmission, no formal name, no external record, no
-instrument that would price its absence in advance.
+The last two are not decoration. They are what separates a catalogued
+instrument from a claim that works everywhere, and the catalog's A1
+entry is the worked case: "senses wiring through walls" failed its own
+numbers, "senses faults" survived, and the difference was stating the
+range. An entry without them is not an entry. [inf]
+
+Two parallel catalogs already exist and should converge on this format
+rather than being merged:
+
+```
+unnamed-instruments.md   instruments with no NAME. tiered by evidence.
+sensor-panel.md          one instrument's channels, decomposed
+```
+
+Neither is the gap log. The gap log's question is narrower — no
+instrument exists to distinguish competent from absent *before
+failure* — and an entry can be well-named, well-characterized, and
+still belong in it. A2 (tool-mediated remote touch) is the sharp case:
+fully quantified, named channel, documented kill mechanism in HAVS,
+and still no instrument that says which practitioner has lost it until
+the work goes wrong. That is a gap-log entry with none of the
+namelessness. [inf]
+
+Seed entries already written elsewhere: the reading method in
+`emotion-reading-spec.md` (household transmission, no formal name, no
+external record, no instrument that prices its absence in advance), and
+A2 above.
 
 Why first: it is the only output on this list that is complete at every
 moment — ten entries is a finding, forty is a better one, and there is
@@ -297,6 +325,21 @@ Q2  ═════════════════════════�
 
 Q2's bench step runs in parallel if there is capacity for it — it is the
 hinge, and it is the longest pole. Everything downstream of it waits.
+
+### Off-roadmap — the cheapest empirical test in the repo
+
+Not in §8. `unnamed-instruments.md` A1 proposes a blinded test of
+arm-hair fault detection: known-faulted vs known-intact runs, operator
+blind to which. Shop-runnable, no subjects to recruit, no safety
+review, no apparatus that does not already exist.
+
+It is worth pulling forward out of proportion to its topic, because it
+is the only place in the repo where a felt reading gets checked against
+ground truth cheaply — and the confound it tests for (felt externality
+is not evidence of externality) applies to every `[obs]` entry in
+`sensor-panel.md` and every operator report Q2 would collect. A
+positive result is a small finding about wiring. A negative result is a
+large finding about the whole observational base. [inf]
 
 ---
 
