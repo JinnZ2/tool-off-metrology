@@ -14,8 +14,8 @@ range** — the physical regime where the instrument works — and states
 measurement. A claim that works everywhere is a story.
 
 Status: seed. Entries carry evidentiary tier. Real-and-quantified,
-open-hypothesis, and misidentified-mechanism are different columns and
-do not mix.
+mechanism-open, open-hypothesis, and misidentified-mechanism are
+different columns and do not mix.
 
 ---
 
@@ -378,8 +378,16 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
 
 ## Evidentiary tiers
 
-- **real-quantified** — mechanism and operating range documented
-  (A1, A2, A3, B1, C)
+- **real-quantified** — mechanism and operating range both documented
+  (A2, A3, B1, and Column C's wake-cycle axis)
+- **mechanism-open** — the reading is established and the channel it
+  runs on is not. Use, repetition and operating range are on record;
+  the mechanism has enumerated candidates and a discriminator nobody
+  has run (A1, B2). Distinct from open-hypothesis, and the distinction
+  is the whole point: there the question is whether the reading is
+  real, here only how it works. A1 sits one experiment away from
+  resolving into real-quantified or misidentified-mechanism, and which
+  one is not currently knowable from the entry.
 - **open-hypothesis** — plausible, not established; do not file next to
   real-quantified. Human magnetoreception sits here: Wang 2019 has zero
   independent replications 2019–2026, unique apparatus; brain magnetite
@@ -391,6 +399,12 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
   only) was correct at first report. Kept as a tier for cases where a
   genuine reading is later found to run on a different channel than
   first assumed.
+
+Column C's neurosteroid axis takes no tier here. Its mechanism is
+established neuroendocrinology and its use as an instrument is
+unstudied, which is neither a documented instrument nor an open
+hypothesis about a reading. That state is a gap, and it is logged as
+G1.
 
 ## Tags
 

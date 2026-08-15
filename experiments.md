@@ -162,6 +162,24 @@ the reading is real and the electric-field framing is wrong — thermal
 or acoustic instead. That is a `misidentified-mechanism` result, the
 catalog has a tier for precisely it, and it is not a debunk.
 
+**what this protocol is for, in catalog terms.** A1 currently sits in
+`mechanism-open`, which is a state rather than a verdict, and this
+experiment is what moves it:
+
+```
+a candidate channel confirmed        → real-quantified
+the reading runs on a channel other
+  than the one it was told as        → misidentified-mechanism
+no channel survives the design       → back to A1-a. the reading is
+                                       established by use, so a
+                                       four-way null means the design
+                                       missed the channel, not that
+                                       the reading is absent
+```
+
+The third row is the one to write down beforehand. It is the outcome
+most likely to be read as a debunk and it is the one that says least.
+
 **confounds.** Arcing sound is itself informative, so ear protection
 is mandatory rather than advisable. The acrylic barrier also blocks
 air movement — pair it with a perforated sham barrier that blocks
