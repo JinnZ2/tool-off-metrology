@@ -59,13 +59,22 @@ instrument that
 search bound         where you looked for that instrument and did not find it
 operating range      the regime where the skill actually applies
 cannot read          what it is blind to, inside its own regime
+carrier's words      the operating range in the carrier's own phrasing,
+                     verbatim, recorded before any analysis of it
 ```
 
-The last two are not decoration. They are what separates a catalogued
-instrument from a claim that works everywhere, and the catalog's A1
-entry is the worked case: "senses wiring through walls" failed its own
-numbers, "senses faults" survived, and the difference was stating the
-range. An entry without them is not an entry. [inf]
+The range fields are not decoration. They separate a catalogued
+instrument from a claim that works everywhere. An entry without them is
+not an entry. [inf]
+
+The verbatim field is there because of how A1 went wrong. The carrier
+had stated the range correctly on first telling — "open" wire, a
+"problem" — and the analysis layer imported a broader scenario,
+attached it to them, and then narrowed it back as though correcting
+them. Without the carrier's words on record there is nothing to check
+the paraphrase against, and the entry lands in the wrong tier with the
+error looking like rigor. See the provenance correction in
+`unnamed-instruments.md`. [obs]
 
 Two parallel catalogs already exist and should converge on this format
 rather than being merged:

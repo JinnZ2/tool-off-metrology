@@ -70,6 +70,24 @@ footing from dowsing. An entry that reads everything, everywhere, has
 not been specified. Its blind side is not a caveat to add at the end —
 it is half the entry.
 
+## Carrier words before paraphrase
+
+When a claim is carried from an operator, record their words verbatim
+before writing the analysis, and keep the two in separate columns.
+
+A paraphrase can widen an operating range. Once widened, the widening
+is invisible — it reads back as the carrier's own claim, and any later
+narrowing reads as the analyst locating the carrier's overclaim rather
+than their own. `unnamed-instruments.md` A1 is the worked case: the
+carrier said "open" and "problem" in the first sentence, the
+intact-wiring scenario was imported from elsewhere and attached to
+them, and the record then showed them being corrected into a range they
+had stated correctly from the start.
+
+The cost is not just to the carrier. It puts the entry in the wrong
+evidentiary tier, which is the one thing the tier system exists to
+prevent.
+
 ## Register
 
 Match the existing files. Terse, declarative, field-note density. ASCII

@@ -44,9 +44,11 @@ do not mix.
   (dowsing/EHS/ideomotor lesson). Arbiter is a blinded test — cheap
   and shop-runnable: known faulted vs known-intact runs, operator
   blind to which. [lit/open]
-- **Tier:** real mechanism, correct operating range. The prior
-  "senses wiring through walls" framing failed its own numbers; the
-  "senses faults" framing does not. [obs + lit]
+- **Tier:** real mechanism, correct operating range — stated correctly
+  by the carrier at first telling. The "senses wiring through walls"
+  framing that failed its own numbers was introduced downstream, in
+  analysis. It was never the operator's claim. See the provenance
+  correction below. [obs + lit]
 
 ### A2. Tool-mediated remote touch
 
@@ -148,6 +150,61 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
 
 ---
 
+## Provenance correction — A1
+
+A1 was first catalogued as a misidentified mechanism: a real reading
+that had been attached to the wrong claim ("senses wiring through
+walls"), later narrowed to fault detection. The direction of that
+story is wrong. The carrier's first statement:
+
+> or electric sensing on your… on utilizing your hair. So if I'm
+> coming up and I don't know that an electric… that there's, like, an
+> electric wire that's **open**, I can utilize the hairs on my arm
+> over the sheetrock and generally say, okay. Well, there is a
+> **problem** right here, and there's a electric field that is going
+> on here. If I don't have any other instruments available
+
+Open wire. Problem. First sentence. Functional wiring was never
+claimed, and "senses wiring through walls" was never said. [obs]
+
+The intact-wiring scenario came from the analysis packet, was attached
+to the carrier, and the subsequent narrowing to faults was presented as
+locating the carrier's overclaim. It located the analyst's.
+
+What that costs if it stands uncorrected:
+
+```
+the carrier's precision goes invisible — they specified an operating
+  range on first telling, and the record shows them being corrected
+  into one
+the analysis layer appears to have added rigor that it removed and
+  then restored
+A1 sits in the wrong tier, which is the single thing the tier system
+  exists to prevent
+```
+
+Shape, not yet a finding: this is the §1 inversion running on the
+documentation layer instead of on a work environment — the instrument
+pointed at the carrier scored them as imprecise when they were
+precise. One case does not establish that as a recurring property of
+the method. Do not promote it on this evidence. [inf]
+
+Adjacent to B1 but not the same failure: B1 is loss on serialization,
+this is widening on paraphrase. No serialization was involved. Whether
+they share a mechanism is unexamined. [open]
+
+The rule that follows costs nothing and would have caught it:
+
+```
+RECORD THE CARRIER'S WORDS BEFORE PARAPHRASING THEM
+  a paraphrase can widen an operating range, and once widened the
+  widening is invisible — it reads back as the carrier's own claim,
+  and the correction then reads as generosity toward them.
+  verbatim first. analysis after, in a separate column.
+```
+
+---
+
 ## Evidentiary tiers
 
 - **real-quantified** — mechanism and operating range documented
@@ -158,8 +215,14 @@ emotion-reading-spec. Cataloguing it is the first move off that clock.
   is real but largely exogenous pollution, no receptor organ found.
   Named, quarantined, not catalogued as a working instrument. [lit]
 - **misidentified-mechanism** — a real reading attributed to the wrong
-  channel. The residual, not a debunk. (Where A1 started before the
-  operating range was pinned to faults.)
+  channel. The residual, not a debunk. A1 was filed here and does not
+  belong: the misidentification was in the analysis, not in the
+  reading. No entry currently occupies this tier.
+- **analyst-broadened** — the carrier stated a narrow operating range;
+  the documentation layer widened it; the widened version failed the
+  numbers. The failure belongs to the documentation, not to the
+  instrument. A1 is the worked case, and it is the reason this tier
+  exists. [obs]
 
 ## Tags
 
