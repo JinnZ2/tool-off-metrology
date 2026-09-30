@@ -170,3 +170,17 @@ an anatomy bolted on to make it feel solid. The result is the result.
 - Develop on the branch named in the task; create it if absent.
 - Push with `git push -u origin <branch>`.
 - Do not open a pull request unless explicitly asked.
+
+<!-- clone-refspec-note v1 -->
+## Cloning and pushing
+Shallow clones are single-branch by default.
+Before pushing any branch other than main, run:
+
+    git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+    git fetch --depth 1
+
+Or clone with: git clone --depth 1 --no-single-branch <url>
+Without this, the first push of a new branch
+fails the tracking-ref check even when the
+commit landed.
+<!-- /clone-refspec-note v1 -->
